@@ -1,0 +1,116 @@
+
+The program must accept an integer matrix of size R*C as the input.
+ The matrix contains only digits from 1 to 9. 
+ The values of R and C are always divisible by 3.
+  The program must find the 3*3 submatrices having all the digits from 1 to 9. 
+  Then the program must sort the digits within those submatrices in ascending order.
+   Finally, the program must print the modified matrix as the output. Boundary Condition(s): 3 <= R, C <= 48 
+   Input Format: The first line contains R and C separated by a space. The next R lines, each contains C integer values separated by a space. 
+   Output Format: The first R lines, each contains C integer values separated by a space. 
+   Example Input/Output 1: 
+   Input:
+    6 6
+    8 8 4 1 8 5 
+    4 9 7 9 7 2
+    5 3 3 6 3 4
+    1 7 2 6 2 3
+    8 6 3 7 6 4
+    5 9 4 3 5 1
+Output: 
+8 8 4 1 2 3
+4 9 7 4 5 6
+5 3 3 7 8 9 
+1 2 3 6 2 3 
+4 5 6 7 6 4 
+7 8 9 3 5 1 
+Explanation: 
+In the given matrix, the 3*3 submatrices having all the digits from 1 to 9 are highlighted below 
+8 8 4 1 8 5 
+4 9 7 9 7 2 
+5 3 3 6 3 4 
+1 7 2 6 2 3 
+8 6 3 7 6 4 
+5 9 4 3 5 1 
+After sorting the digits within the submatrices in ascending order,
+ the matrix becomes 
+ 8 8 4 1 2 3 
+ 4 9 7 4 5 6 
+ 5 3 3 7 8 9 
+ 1 2 3 6 2 3 
+ 4 5 6 7 6 4 
+ 7 8 9 3 5 1 
+ Example Input/Output 2: 
+ Input: 
+ 6 9
+4 8 6 3 3 3 
+4 1 5 9 2 3 
+9 6 7 8 7 3 
+1 5 7 4 6 1 
+9 6 2 2 1 7 
+4 8 2 7 1 6 
+5 3 9 9 7 5 
+7 8 5 6 4 8 
+3 6 1 8 5 8 
+Output: 
+1 2 3 3 3 3 
+1 2 3 4 5 6 
+9 6 7 4 5 6 
+7 8 9 4 6 1 
+7 8 9 1 2 3 
+1 2 3 7 1 6 
+4 5 6 4 5 6 
+7 8 5 7 8 9 
+7 8 9 8 5 8
+
+
+Code in java 
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		//Your Code Here
+		Scanner sc=new Scanner(System.in);
+		
+		int R=sc.nextInt(),C=sc.nextInt();
+		int [][]mat=new int[R][C];
+		for(int i=0;i<R;i++){
+		    for(int j=0;j<C;j++){
+		        mat[i][j]=sc.nextInt();
+		    }
+		}
+		
+		for(int Row=0;Row<R;Row+=3){
+		    for(int Col=0;Col<C;Col+=3){
+		        Set<Integer> arr=new HashSet<>();
+		        for(int r=Row;r<Row+3;r++){
+		            for(int c=Col;c<Col+3;c++){
+		                arr.add(mat[r][c]);
+		            }
+		        }
+		        if(arr.size()==9){
+		            order(mat,Row,Col);
+		        }
+		    }
+		}
+		
+		
+		for(int i=0;i<R;i++){
+		    for(int j=0;j<C;j++){
+		        System.out.print(mat[i][j]+" ");
+		    }
+		    System.out.println();
+		}
+		
+		System.out.print("marcus");
+        
+
+	}
+	public static void order(int [][]mat,int row,int col){
+	    int c=1;
+	    for(int i=row;i<row+3;i++){
+	        for(int j=col;j<col+3;j++){
+	            mat[i][j]=c++;
+	        }
+	    }
+	}
+}

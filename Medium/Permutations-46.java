@@ -17,7 +17,7 @@ class Solution {
         if(curLen==len){
             res.add(new ArrayList<>(cur));
             return;
-        }
+        }   
         for(int i=0;i<len;i++){
             if(!isused[i]){
                 isused[i]=true;
