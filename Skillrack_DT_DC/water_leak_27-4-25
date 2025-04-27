@@ -16,7 +16,9 @@ public class Hello {
 		    if(arr[i]>X){
 		        leak=arr[i]-X;
 		        arr[i]-=leak;
-		    }
+		    }else{
+                leak=0;
+            }
 		    
 		    
 		}
