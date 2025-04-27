@@ -1,0 +1,66 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		//Your Code Here
+		Scanner sc=new Scanner(System.in);
+		int N=sc.nextInt();
+		int []arr=new int[N];
+		int leak=0;
+		for(int i=0;i<N;i++){
+		    arr[i]=sc.nextInt();
+		}
+		int X=sc.nextInt();
+		for(int i=N-1;i>=0;i--){
+		    arr[i]+=leak;
+		    if(arr[i]>X){
+		        leak=arr[i]-X;
+		        arr[i]-=leak;
+		    }
+		    
+		    
+		}
+		for(int i=0;i<N;i++){
+		    System.out.print(arr[i]+"   ");
+		}
+
+	}
+}
+
+
+
+
+There are N buckets arranged in a staircase (i.e., one bucket in each step,
+1st bucket in the 1st step, 2nd bucket in the 2nd step, 3rd bucket in the 3rd step, and so on). 
+The N steps are increasing from left to right. 
+The amount of water(in litres) in each bucket is passed as the input. 
+All buckets have the same size and the same capacity. 
+A hole is drilled in each bucket so that each bucket can hold only X litres of water. 
+If water leaks from the hole of a bucket, then the water will flow into the bucket at its bottom in the staircase.
+ If the water leaks from the 1st bucket, then the water will flow into the ground. 
+The program must print the amount of water in each bucket when the water in all
+ N buckets is stable(i.e., the state when there is no leakage in N buckets). 
+Boundary Condition(s): 1 <= N <= 100 1 <= Amount of water in each bucket, 
+X <= 1000 Input 
+Format: The first line contains N. 
+The second line contains N integer values separated by a space. 
+The third line contains X. 
+Output Format: The first line contains the amount of water in each bucket separated by a space. 
+Example Input/Output 1: 
+Input: 5 6 10 15 10 13 11 
+Output: 10 11 11 11 11 
+Explanation: Here N = 5 and X = 11. 
+After drilling the holes, each bucket can hold 11 litres of water. 
+5th bucket: 2 litres leaked.
+ 4th bucket: 2 litres added & 1 litre leaked.
+ 3rd bucket: 1 litre added & 5 litres leaked.
+ 2nd bucket: 5 litres added & 4 litres leaked.
+ 1st bucket: 4 litres added. 
+Finally, the amount of water in the 5 buckets are 10 11 11 11 11. 
+Example Input/Output 2: 
+Input: 8 19 5 40 9 15 30 19 33 25 
+Output: 19 20 25 9 22 25 25 25 
+Example 
+Input/Output 3:
+Input: 7 9 2 1 32 8 26 29 12 
+Output: 12 12 12 12 12 12 12
