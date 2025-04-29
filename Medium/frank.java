@@ -5,7 +5,6 @@ import java.util.List;
 public class frank{
     public static void main(String[] args){
         int[] target = {1,3};
-        int n = 3;
         List<String> res = new ArrayList<>();
         int k = 1, i = 0;
         int n1 = target.length;
