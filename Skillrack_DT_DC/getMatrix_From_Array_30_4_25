@@ -1,0 +1,91 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int** getMatrixFromArrays(int M, int* arr1, int N, int* arr2) {
+    int total = M + N;
+    int size = sqrt(total);
+
+    // Allocate memory for the matrix (an array of int pointers)
+    int** matrix = (int**)malloc(size * sizeof(int*));
+    for (int i = 0; i < size; i++) {
+        matrix[i] = (int*)malloc(size * sizeof(int));
+    }
+
+    int k = 0; // Index to track position in arr1 and arr2
+
+    // Fill the matrix with elements from arr1 followed by arr2
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            if (k < M) {
+                matrix[i][j] = arr1[k];
+            } else {
+                matrix[i][j] = arr2[k - M];
+            }
+            k++;
+        }
+    }
+
+    return matrix;
+}
+
+
+
+
+
+Function: getMatrixFromArrays
+
+The function/method getMatrixFromArrays accepts four arguments M, arr1, N, and arr2.
+
+M represents the size of the integer array arr1.
+
+N represents the size of the integer array arr2.
+
+The function/method getMatrixFromArrays must return a double pointer representing an integer matrix based on the following conditions:
+
+The matrix to be formed is always a square matrix because the sum of M and N is always a perfect square.
+
+The square matrix must be filled with all the integers from the array arr1 followed by the array arr2 in the order of their occurrence (starting from the 1st row, where left to right in each row).
+
+Your task is to implement the function getMatrixFromArrays so that it passes all the test cases.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+
+Input:
+5
+10 20 30 40 50
+4
+99 88 77 66
+
+Output:
+Matrix:
+10 20 30
+40 50 99
+88 77 66
+
+Explanation:
+Here M = 5 and N = 4.
+The sum of 5 and 4 is 9, which is a perfect square.
+So the size of the square matrix is 3x3.
+After filling the square matrix with the integers from the given two arrays, the matrix becomes:
+10 20 30
+40 50 99
+88 77 66
+
+Example Input/Output 2:
+
+Input:
+7
+1 2 3 4 5 6 7
+9
+10 20 30 40 50 60 70 80 90
+
+Output:
+Matrix:
+1 2 3 4
+5 6 7 10
+20 30 40 50
+60 70 80 90
+
