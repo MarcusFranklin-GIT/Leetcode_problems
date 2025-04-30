@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <math.h>
 
 int** getMatrixFromArrays(int M, int* arr1, int N, int* arr2) {
     int total = M + N;
@@ -33,7 +33,7 @@ int** getMatrixFromArrays(int M, int* arr1, int N, int* arr2) {
 
 
 
-Function: getMatrixFromArrays
+/* getMatrixFromArrays
 
 The function/method getMatrixFromArrays accepts four arguments M, arr1, N, and arr2.
 
@@ -68,7 +68,7 @@ Matrix:
 Explanation:
 Here M = 5 and N = 4.
 The sum of 5 and 4 is 9, which is a perfect square.
-So the size of the square matrix is 3x3.
+So the size of the square matrix is 
 After filling the square matrix with the integers from the given two arrays, the matrix becomes:
 10 20 30
 40 50 99
@@ -88,4 +88,4 @@ Matrix:
 5 6 7 10
 20 30 40 50
 60 70 80 90
-
+*/
