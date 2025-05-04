@@ -1,0 +1,26 @@
+class Solution {
+    public int numEquivDominoPairs(int[][] domi) {
+       int N=domi.length;
+       int count=0;
+      Set<String> seen = new HashSet<>();
+      for(int i=0;i<N;i++){
+            int a = Math.min(domi[i][0], domi[i][1]);
+            int b = Math.max(domi[i][0], domi[i][1]);
+            String key = a + "," + b;
+
+        if(!seen.contains(key)){
+            seen.add(key);
+            int num=1;
+            for(int j=i+1;j<N;j++){
+                    int x = domi[j][0];
+                    int y = domi[j][1];
+                    if ((a == Math.min(x, y)) && (b == Math.max(x, y))) {
+                        num++;
+             }
+        }
+        count+=(num*(num-1))/2;
+      }
+     
+    } return count;
+    }
+}
