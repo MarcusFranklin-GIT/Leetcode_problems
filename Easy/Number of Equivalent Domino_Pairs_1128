@@ -24,3 +24,42 @@ class Solution {
     } return count;
     }
 }
+
+// set procedure
+
+// hashmap procedure
+
+class Solution {
+    public int numEquivDominoPairs(int[][] domi) {
+        int N=domi.length;
+        int count=0;
+        Map<String,Integer> map=new HashMap<>();
+        for(int i=0;i<N;i++){
+            int a=Math.min(domi[i][0],domi[i][1]);
+            int b=Math.max(domi[i][0],domi[i][1]);
+            String key= a+","+b;
+
+             int freq = map.getOrDefault(key, 0);
+             count+=freq;
+             map.put(key,freq+1);
+        }
+        return count;
+    }
+}
+
+
+//simple array 
+class Solution {
+    public int numEquivDominoPairs(int[][] dominoes) {
+         int[] num = new int[100];
+        int ret = 0;
+        for (int[] domino : dominoes) {
+            int val = domino[0] < domino[1]
+                ? domino[0] * 10 + domino[1]
+                : domino[1] * 10 + domino[0];
+            ret += num[val];
+            num[val]++;
+        }
+        return ret;
+    }
+}
