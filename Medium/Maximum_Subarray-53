@@ -1,4 +1,4 @@
-package Medium;
+
 class Solution {
     public int maxSubArray(int[] nums) {
         int curr=Integer.MIN_VALUE;
