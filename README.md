@@ -31,6 +31,6 @@ If you find this repository helpful, consider giving it a ⭐ to keep me motivat
 
 📬 Contact
 For any queries or discussions, reach out via:
-📧 Email: your-marcus.franklin.j12@gmail.com
+📧 Email: marcus.franklin.j12@gmail.com
 
 Happy Coding! 🚀
