@@ -18,7 +18,7 @@ Java ,Python
 
 📖 How to Use
 Clone the repository:
-git clone https://github.com/your-username/LeetCode-Solutions.git
+git clone [https://github.com/MarcusFranklin-GIT/LeetCode-problems.git](https://github.com/MarcusFranklin-GIT/Leetcode_problems.git)
 Navigate to the required problem folder.
 Open and explore the solutions.
 Feel free to contribute or improve the existing solutions!
@@ -31,6 +31,6 @@ If you find this repository helpful, consider giving it a ⭐ to keep me motivat
 
 📬 Contact
 For any queries or discussions, reach out via:
-📧 Email: your-marcus.franklin.j12@gmail.com
+📧 Email: marcus.franklin.j12@gmail.com
 
 Happy Coding! 🚀
