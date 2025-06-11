@@ -1,7 +1,7 @@
 class Solution {
     public int getSecondLargest(int[] arr) {
     int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
+    int secondLargest = Integer.MIN_VALUE;
 
     for (int num : arr) {
             if (num > largest) {
