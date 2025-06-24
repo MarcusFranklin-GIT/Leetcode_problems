@@ -20,3 +20,6 @@ class Solution {
         }
         }
     }
+
+    // This code finds the second largest number in an array.
+    // It initializes two variables to track the largest and second largest numbers.
