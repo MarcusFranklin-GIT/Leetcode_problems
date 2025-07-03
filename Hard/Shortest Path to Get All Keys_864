@@ -1,0 +1,50 @@
+class Solution {
+    public int shortestPathAllKeys(String[] grid) {
+        int C=grid[0].length(),R=grid.length;
+        int K=0;
+        Queue<int[]> queue =new LinkedList<>();
+        boolean visited[][][]=new boolean[R][C][(1<<6)];
+        for(int i=0;i<R;i++){
+            for(int j=0;j<C;j++){
+                if(grid[i].charAt(j)=='@'){
+                    queue.add(new int[] {i,j,0,0});
+                }
+                else if(grid[i].charAt(j)-'a'>=0 && grid[i].charAt(j)-'a'<26){
+                    K++;
+                }
+            }
+        }
+        
+        int diff[][] = new int[][] {{0,1},{0,-1},{1,0},{-1,0}};
+        while(!queue.isEmpty()){
+            int cell[]=queue.poll();
+            int row= cell[0],col =cell[1],moves=cell[2], flag=cell[3];
+            if(flag==((1<<K)-1)) return moves;
+            for(int i=0;i<4;i++){
+                int ar=row+diff[i][0];
+                int ac=col+diff[i][1];
+
+                if(ar>=0 && ar<R && ac>=0 && ac<C){
+                    char ch=grid[ar].charAt(ac);
+                    if(ch =='#'){
+                        continue;
+                    }
+                    if(ch>='A' && ch<='F'){
+                        if((flag&(1<<(ch-'a')))==0){
+                            continue;
+                        }
+                    }
+                    int newflag = flag;
+                    if(ch >= 'a' && ch<='f'){
+                        newflag= newflag|(1<<(ch-'a'));
+                    }
+                    if(!visited[ar][ac][newflag]){
+                        queue.add(new int[]{ar,ac,moves+1,newflag});
+                        visited[ar][ac][newflag]= true;
+                    }
+                }
+            }
+        }
+        return -1;
+    }
+}
