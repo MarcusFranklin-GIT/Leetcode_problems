@@ -1,0 +1,26 @@
+import java.util.*;
+public class Non_measurable_smallest_weight {
+
+    public static void main(String[] args) {
+		//Your Code Here
+		Scanner sc=new Scanner(System.in);
+		int N=sc.nextInt();
+		int[] arr=new int[N];
+		for(int i=0;i<N;i++){
+		    arr[i]=sc.nextInt();
+		}
+		Arrays.sort(arr);
+		int res=0;
+		for(int i=0;i<N;i++){
+		    if(res>=arr[i]-1){
+		        res+=arr[i];
+		    }else break;
+		}
+		System.out.print(res+1);
+
+	}
+}
+
+// This code reads an integer N and then N integers from the input, sorts them, and calculates the smallest non-measurable weight.
+//question: Given a set of weights, find the smallest weight that cannot be measured using any combination of the given weights.
+// The output is the smallest non-measurable weight that can be formed using the given weights
