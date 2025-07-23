@@ -1,0 +1,63 @@
+class Solution {
+
+    int diffs[][] = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
+
+    public int largestIsland(int[][] grid) {
+        int N=grid.length;
+        int counter=2;
+
+        for(int row=0;row<N;row++){
+            for(int col=0;col<N;col++){
+                if(grid[row][col]==1){
+                    grid[row][col]=counter;
+                    findIsland(N,grid,counter,row,col);
+                    counter++;
+                }   
+            }
+        }
+        int size[]=new int[counter];
+        for(int i=0;i<N;i++){
+            for(int j=0;j<N;j++){
+                if(grid[i][j]!=0){
+                    size[(grid[i][j])]++;
+                }
+            }
+        }
+
+        int maxArea=0;
+        for(int i=0;i<counter;i++){
+            maxArea=Math.max(maxArea,size[i]);
+        }
+        for(int row=0;row<N;row++){
+            for(int col=0;col<N;col++){
+                int area=1;
+                boolean visited[]=new boolean[counter];
+                if(grid[row][col]==0){
+                    for(int dir[]:diffs){
+                        int adjR = row + dir[0];
+                        int adjC = col + dir[1];
+                        if (adjR < N && adjR >= 0 && adjC < N && adjC >= 0 && visited[grid[adjR][adjC]]==false){
+                            visited[grid[adjR][adjC]]=true;
+                            area+=size[grid[adjR][adjC]];
+                        }
+                    }
+                    maxArea=Math.max(area,maxArea);
+                }
+            }
+        }
+        return maxArea;
+    }
+
+    private void findIsland(int N, int grid[][], int counter, int row, int col) {
+        for (int diff[] : diffs) {
+            int adjR = row + diff[0];
+            int adjC = col + diff[1];
+            if (adjR < N && adjR >= 0 && adjC < N && adjC >= 0 && grid[adjR][adjC] != 0
+                    && grid[adjR][adjC] != counter) {
+                grid[adjR][adjC] = counter;
+                findIsland(N, grid, counter, adjR, adjC);
+
+            }
+        }
+    }
+}
