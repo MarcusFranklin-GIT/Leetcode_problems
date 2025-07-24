@@ -21,8 +21,12 @@ public class Disjoint_leader {
             int y=Queries[q][1];
             change(leaders,x,y);
         }
-
         for(int i=1;i<=N;i++){
+            System.out.print(leaders[i]+" ");
+        }
+        System.out.println();
+        for(int i=1;i<=N;i++){
+
             System.out.print(find(leaders[i],leaders)+" ");
         }
 
