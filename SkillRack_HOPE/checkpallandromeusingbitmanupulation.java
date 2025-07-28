@@ -6,7 +6,6 @@ public class checkpallandromeusingbitmanupulation {
         int num=0;
         for(int i=0;i<str.length();i++){
             num^=(1<<(str.charAt(i)-'a'));
-
         }
         if(num==0|| (num & (num-1))==0){
             System.out.println("palindrome can be formed when rearranged");

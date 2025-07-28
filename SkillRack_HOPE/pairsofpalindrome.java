@@ -7,7 +7,7 @@ public class pairsofpalindrome {
         sc.nextLine();
         int [] flag=new int[N];
 
-        long res=0L,evenlen=0L,oddlen=0L,otherslen=0L;
+        long res=0L,evenlen=0L,oddlen=0L;
 
         HashMap<Integer,Long> oddMap=new HashMap<>();
         HashMap<Integer,Long> othersMap=new HashMap<>();

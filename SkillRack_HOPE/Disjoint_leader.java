@@ -26,10 +26,9 @@ public class Disjoint_leader {
         }
         System.out.println();
         for(int i=1;i<=N;i++){
-
             System.out.print(find(leaders[i],leaders)+" ");
         }
-
+        sc.close();
     }
 
     private static void change(int[] leader, int x, int y) {
@@ -38,7 +37,6 @@ public class Disjoint_leader {
         if(left!=right){
             leader[right]=left;
         }
-
     }
     private static int find(int node,int leader[]){
         if(leader[node]==node) return node;
