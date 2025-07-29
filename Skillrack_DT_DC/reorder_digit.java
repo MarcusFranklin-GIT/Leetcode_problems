@@ -7,12 +7,15 @@ public class reorder_digit {
         Scanner sc=new Scanner(System.in);
         long N=sc.nextLong();
         long A=sc.nextLong();
+//find length        
         long num=N;
         int len=0;
         while(num>0){
             len++;
             num/=10;
         }
+
+        
         boolean isused[]=new boolean[len];
         List<String> res=new ArrayList<>();
         helper(isused,res,new StringBuilder(),String.valueOf(N).toCharArray(),len);
