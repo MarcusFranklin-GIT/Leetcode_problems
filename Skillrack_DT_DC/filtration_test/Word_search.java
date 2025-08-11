@@ -38,9 +38,7 @@ public class Word_search {
 
         if (pos == len - 1) return true;
 
-        // Move right or down
-        return dfs(R, C, row + 1, col, grid, S, len, pos + 1) ||
-               dfs(R, C, row, col + 1, grid, S, len, pos + 1);
+        return dfs(R, C, row + 1, col, grid, S, len, pos + 1)||dfs(R, C, row, col + 1, grid, S, len, pos + 1);
     }
     
 }

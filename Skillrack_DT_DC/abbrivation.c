@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+char* getAbbreviation(char *str);
 
 int main(){
     char str[100];
