@@ -22,3 +22,25 @@ public class findball {
 
 	}
 }
+
+//other solution
+
+class ball {
+	int n, p;
+
+	public ball() {
+		Scanner sca = new Scanner(System.in);
+		n = sca.nextInt();
+		p = sca.nextInt();
+
+		for (int i = 0; i < n; i++) {
+			int x, y;
+			x = sca.nextInt();
+			y = sca.nextInt();
+			if (x == p) p = y;
+			else if (y == p) p = x;
+		}
+		System.out.print(p);
+		sca.close();
+	}
+}
