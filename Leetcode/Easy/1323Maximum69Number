@@ -1,0 +1,21 @@
+class Solution {
+    public int maximum69Number (int num) {
+        int arr[]=new int[4];
+        int N=num;
+        int i=0,flag=0;
+        while(N>0){
+            arr[i]=N%10;
+            N/=10;
+            i++;
+        }
+        for(int j=i-1;j>=0;j--){
+            if(arr[j]==6 && flag==0){
+                N=(N*10)+9;
+                flag=1;
+                continue;
+            }
+            N=(N*10)+arr[j];
+        }
+        return N;
+    }
+}
