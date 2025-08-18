@@ -36,6 +36,6 @@ public class shift_subarrays {
 		    }
 		    System.out.println();
 		}
-
+		sc.close();
 	}
 }

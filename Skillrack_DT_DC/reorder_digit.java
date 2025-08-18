@@ -26,6 +26,7 @@ public class reorder_digit {
             }
         }
         System.out.print(ans);
+        sc.close();
     }
     
     public static void helper(boolean isused[],List<String> res,StringBuilder current,char digits[],int len){

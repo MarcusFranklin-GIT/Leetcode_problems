@@ -17,6 +17,6 @@ public class stop_watch {
 		    time+=(n2-n1);
 		}
 		System.out.print(time+"...");
-
+		sc.close();
 	}
 }
