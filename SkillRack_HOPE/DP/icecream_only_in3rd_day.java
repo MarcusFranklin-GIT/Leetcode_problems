@@ -11,3 +11,6 @@ public class icecream_only_in3rd_day {
 
 	}
 }
+
+
+//the boy can eat ice cream only on the 3rd day or even he can eat chocolate on the other days
