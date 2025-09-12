@@ -1,4 +1,4 @@
-package Leetcode.Medium;
+
 
 
 class valid_sudoku_36{
