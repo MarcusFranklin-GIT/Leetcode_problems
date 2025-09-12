@@ -1,14 +1,4 @@
 package Leetcode.LinkedList;
-
-
-//   Definition for singly-linked list.
- class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-  }
  
 class Rotate_List_61 {
     public ListNode rotateRight(ListNode head, int k) {
@@ -31,6 +21,16 @@ class Rotate_List_61 {
         return head;
     }
 }
+
+//   Definition for singly-linked list.
+class ListNode {
+      int val;
+      ListNode next;
+      ListNode() {}
+      ListNode(int val) { this.val = val; }
+      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+  }
+ 
 //to rotate the linked list to the right by k places
 //Approach: first find the length of the linked list
 //then connect the tail to the head to make it circular
