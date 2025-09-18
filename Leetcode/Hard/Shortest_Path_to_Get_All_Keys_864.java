@@ -1,4 +1,6 @@
-class Solution {
+package Leetcode.Hard;
+import java.util.*;
+public class Shortest_Path_to_Get_All_Keys_864 {
     public int shortestPathAllKeys(String[] grid) {
         int C=grid[0].length(),R=grid.length;
         int K=0;

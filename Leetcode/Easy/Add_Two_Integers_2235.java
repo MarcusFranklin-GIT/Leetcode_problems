@@ -1,4 +1,6 @@
-public class Add_Two_Integers_2235 {
+package Leetcode.Easy;
+import java.util.*;
+class Add_Two_Integers_2235 {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int result = solution.sum(5, 10);
