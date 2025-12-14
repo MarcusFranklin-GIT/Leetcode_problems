@@ -38,11 +38,11 @@ class Solution {
                 }
             }
         }
-        ArrayList<Integer> top = new ArrayList<>();
+        ArrayList<Integer> bottom = new ArrayList<>();
         for(int key:TM.keySet()){
-            top.add(TM.get(key));
+            bottom.add(TM.get(key));
         }
-        return top;
+        return bottom;
     }
 }
 class Element{
