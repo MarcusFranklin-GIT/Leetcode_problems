@@ -1,3 +1,4 @@
+package Leetcode.Medium;
 import java.util.*;
 public class Design_a_Food_Rating_System_2353 {
     

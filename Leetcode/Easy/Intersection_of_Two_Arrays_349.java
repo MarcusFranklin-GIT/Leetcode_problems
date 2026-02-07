@@ -1,4 +1,5 @@
 import java.util.*;
+package Leetcode.Easy;
 public class Intersection_of_Two_Arrays_349 {
     public static void main(String[] args) {
         int nums1[] = {1,2,2,1}, nums2[] = {2,2};

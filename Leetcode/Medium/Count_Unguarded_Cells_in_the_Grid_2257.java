@@ -1,3 +1,4 @@
+package Leetcode.Medium;
 public class Count_Unguarded_Cells_in_the_Grid_2257 {
     public static void main(String[] args) {
         Solution sol=new Solution();
