@@ -1,6 +1,6 @@
 package Leetcode.Easy;
 //mohan solution
-public class TreeNode {
+class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
@@ -13,7 +13,7 @@ public class TreeNode {
       }
   }
 
-class Balanced_Binary_Tree_110 {
+public class Balanced_Binary_Tree_110 {
     public boolean isBalanced(TreeNode root) {
         if (root == null) return true;
         int left = height(root.left);
