@@ -37,3 +37,31 @@ public class singlemax {
         sc.close();
 	}
 }
+
+// You are given N integers. Repeat the following process:
+
+// Find the maximum value M in the list.
+
+// If M is a single-digit number (0–9), stop and output:
+
+// M (the maximum value)
+
+// C (the total number of integers currently in the list)
+
+// If M is not a single-digit number:
+
+// Split M into two integers: M/2 and M − M/2
+
+// Remove M from the list and add these two values.
+
+// Repeat the process.
+
+// Input Format
+
+// First line: Integer N
+
+// Second line: N space-separated integers
+
+// Output Format
+
+// Print M and C separated by a space.
