@@ -7,8 +7,6 @@ public class Book implements Comparable<Book> {
     private int rating;
     private int year;
 
-    // getters and setters
-
     public String getTitle() { return title; }
     public void setTitle(String title) { this.title = title; }
 
@@ -26,20 +24,15 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int compareTo(Book b) {
-
-        // price ascending
         if (this.price != b.price)
             return this.price - b.price;
 
-        // rating descending
         if (this.rating != b.rating)
             return b.rating - this.rating;
 
-        // year descending
         if (this.year != b.year)
             return b.year - this.year;
 
-        // title ascending
         return this.title.compareTo(b.title);
     }
 
@@ -53,7 +46,6 @@ public class Book implements Comparable<Book> {
         map.get(b.getYear()).add(b);
     }
 
-    // sort each year's list
     for (List<Book> list : map.values()) {
         Collections.sort(list);
     }
