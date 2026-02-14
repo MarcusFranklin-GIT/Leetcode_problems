@@ -1,7 +1,7 @@
+package Leetcode.Medium;
 
 
-
-class valid_sudoku_36{
+public class valid_sudoku_36{
     public boolean isValidSudoku(char[][] board) {
         int size=board.length;
         int R=board.length, C=board[0].length;

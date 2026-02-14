@@ -1,9 +1,7 @@
-// package Leetcode.Medium;
-
-
+package Leetcode.Medium;
 import java.util.*;
 
-class Sort_Matrix_by_Diagonals3446 {
+public class Sort_Matrix_by_Diagonals_3446 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int N=sc.nextInt();
@@ -13,7 +11,7 @@ class Sort_Matrix_by_Diagonals3446 {
                 grid[i][j]=sc.nextInt();
             }
         }
-        Sort_Matrix_by_Diagonals3446 obj=new Sort_Matrix_by_Diagonals3446();
+        Sort_Matrix_by_Diagonals_3446 obj=new Sort_Matrix_by_Diagonals_3446();
         int ans[][]=obj.sortMatrix(grid);
         for(int i=0;i<N;i++){
             for(int j=0;j<N;j++){

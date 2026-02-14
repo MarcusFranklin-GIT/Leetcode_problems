@@ -1,5 +1,5 @@
 package Leetcode.Medium;
-class Solution {
+public class Number_of_Zero_Filled_Subarrays_2348 {
     public long zeroFilledSubarray(int[] nums) {
         int count=0;
         long ans=0;

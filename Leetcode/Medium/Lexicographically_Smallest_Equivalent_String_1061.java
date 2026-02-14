@@ -1,7 +1,5 @@
 package Leetcode.Medium;
-
-
-class Solution {
+public class Lexicographically_Smallest_Equivalent_String_1061 {
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
         int leaders[]=new int[26];
         for(int i=0;i<26;i++){

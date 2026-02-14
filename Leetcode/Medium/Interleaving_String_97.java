@@ -1,4 +1,5 @@
-class Solution {
+package Leetcode.Medium;
+class Interleaving_String_97 {
     public boolean isInterleave(String s1, String s2, String s3) {
         int len1 = s1.length(), len2 = s2.length(), len3 = s3.length();
         if (len1 + len2 != len3)

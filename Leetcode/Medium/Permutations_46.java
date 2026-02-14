@@ -1,7 +1,7 @@
-package Medium;
+package Leetcode.Medium;
 import java.util.*;
 
-class Solution {
+public class Permutations_46 {
     public List<List<Integer>> permute(int[] nums) {
         int len=nums.length;
         List<List<Integer>> result=new ArrayList<>();

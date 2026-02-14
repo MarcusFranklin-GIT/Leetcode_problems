@@ -1,6 +1,4 @@
 package Leetcode.Medium;
-import java.util.*;
-
 public class Minimum_Time_to_Make_Rope_Colorful_578 {
     public static void main(String[] args) {
         Solution sol=new Solution();

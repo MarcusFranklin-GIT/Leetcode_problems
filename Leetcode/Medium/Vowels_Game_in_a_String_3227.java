@@ -1,5 +1,4 @@
-
-
+package Leetcode.Medium;
 class Vowels_Game_in_a_String_3227 {
     public boolean doesAliceWin(String s) {
      for(int i=0;i<s.length();i++){

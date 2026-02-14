@@ -1,4 +1,5 @@
-class Solution {
+package Leetcode.Medium;   
+public class Minimum_Path_Sum_64 {
     public int minPathSum(int[][] grid) {
         int R=grid.length,C=grid[0].length;
         for(int col=1;col<C;col++){

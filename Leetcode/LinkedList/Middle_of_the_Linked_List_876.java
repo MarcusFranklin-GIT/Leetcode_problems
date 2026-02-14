@@ -1,13 +1,6 @@
 package Leetcode.LinkedList;
-//  * Definition for singly-linked list.
-  class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-  }
-class Middle_of_the_Linked_List_876 {
+
+public class Middle_of_the_Linked_List_876 {
     public ListNode middleNode(ListNode head) {
         ListNode fast=head;
         ListNode slow=head;

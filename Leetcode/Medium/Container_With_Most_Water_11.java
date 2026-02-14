@@ -1,5 +1,5 @@
 package Leetcode.Medium;
-class Solution {
+public class Container_With_Most_Water_11 {
     public int maxArea(int[] height) {
         int i=0,j=height.length-1;
         int max=0;

@@ -1,10 +1,9 @@
-class Solution {
+package Leetcode.Medium; 
+public class Longest_Palindromic_Substring_5 {
     public String longestPalindrome(String s) {
-        int maxlen=1;
         int len=s.length();
         int[][] arr= new int[len][len];
         String ans="-1";
-        int start=0,end=0;
         for(int i=0;i<len;i++){
             arr[i][i]=1;
             ans=s.substring(i,i+1);

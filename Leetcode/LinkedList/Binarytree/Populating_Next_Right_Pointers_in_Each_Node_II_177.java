@@ -2,9 +2,6 @@ package Leetcode.LinkedList.Binarytree;
 
 import java.util.*;
 
-public class Populating_Next_Right_Pointers_in_Each_Node_II_177 {
-    
-}
 
 // Definition for a Node.
 
@@ -29,7 +26,7 @@ class Node {
 };
 
 
-class Solution {
+public class Populating_Next_Right_Pointers_in_Each_Node_II_177 {
     public Node connect(Node root) {
         if(root==null)return root;
         Queue<Node> q=new LinkedList<>();

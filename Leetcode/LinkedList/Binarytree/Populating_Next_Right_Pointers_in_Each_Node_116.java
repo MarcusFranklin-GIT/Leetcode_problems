@@ -1,6 +1,4 @@
 package Leetcode.LinkedList.Binarytree;
-
-
 class Populating_Next_Right_Pointers_in_Each_Node_116 {
     public Node connect(Node root) {
         if(root==null)return root;

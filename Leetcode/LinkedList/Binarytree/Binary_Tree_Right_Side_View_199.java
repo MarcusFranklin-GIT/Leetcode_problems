@@ -3,10 +3,6 @@ package Leetcode.LinkedList.Binarytree;
 import java.util.*;
 
 public class Binary_Tree_Right_Side_View_199 {
-    
-}
-
-class Solution {
     List<Integer> arr=new ArrayList<>();
     int max=0;
     public List<Integer> rightSideView(TreeNode root) {

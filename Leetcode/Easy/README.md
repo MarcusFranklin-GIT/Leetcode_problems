@@ -36,23 +36,24 @@ A collection of easy-level LeetCode problem solutions.
 | 28 | 1128 | Array, Hash | [number-of-equivalent-domino-pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) | [Java](Number_of_Equivalent_Domino_Pairs_1128.java) | Easy |
 | 29 | 1295 | Array | [find-numbers-with-even-number-of-digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](Find_Numbers_with_Even_Number_of_Digits_1295.java) | Easy |
 | 30 | 1323 | Math, Greedy | [maximum-69-number](https://leetcode.com/problems/maximum-69-number/) | [Java](Maximum69Number_1323.java) | Easy |
-| 31 | 1446 | String | [consecutive-characters](https://leetcode.com/problems/consecutive-characters/) | [Java](Consecutive_Characters_1446.java) | Easy |
-| 32 | 1539 | Math Based | [kth-missing-positive-number](https://leetcode.com/problems/kth-missing-positive-number/) | [Java](Kth_Missing_Positive_Number.java) | Easy |
-| 33 | 1869 | String | [longer-contiguous-segments-of-ones-than-zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | [Java](Longer_Contiguous_Segments_of_Ones_than_Zeros_1869.java) | Easy |
-| 34 | 1935 | String, Hash | [maximum-number-of-words-you-can-type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | [Java](Maximum_Number_of_Words_You_Can_Type_1935.java) | Easy |
-| 35 | 2016 | Array | [maximum-difference-between-increasing-elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | [Java](Maximum_Difference_Between_Increasing_Elements_2016.java) | Easy |
-| 36 | 2144 | Greedy, Sorting | [minimum-cost-of-buying-candies-with-discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Java](MinimumCostofBuyingCandiesWithDiscount_2144.java) | Easy |
-| 37 | 2235 | Math | [add-two-integers](https://leetcode.com/problems/add-two-integers/) | [Java](Add_Two_Integers_2235.java) | Easy |
-| 38 | 2264 | String | [largest-3-same-digit-number-in-string](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Java](Largest_3_Same_Digit_Numberin_String_2264.java) | Easy |
-| 39 | 2873 | Array | [maximum-value-of-an-ordered-triplet-i](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/) | [Java](Maximum_Value_of_an_Ordered_Triplet_I_2873.java) | Easy |
-| 40 | 2894 | Math | [divisible-and-non-divisible-sums-difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | [Java](Divisible_and_Non_divisible_Sums_Difference_2894.java) | Easy |
-| 41 | 2942 | Array, String | [find-words-containing-character](https://leetcode.com/problems/find-words-containing-character/) | [Java](Find_Words_Containing_Character_2942.java) | Easy |
-| 42 | 3024 | Array, Math | [type-of-triangle](https://leetcode.com/problems/type-of-triangle/) | [Java](Type_of_Triangle_3024.java) | Easy |
-| 43 | 3392 | Array | [count-subarrays-of-length-three-with-a-condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | [Java](Count_Subarrays_of_Length_Three_With_a_Condition_3392.java) | Easy |
-| 44 | 3423 | Array | [maximum-difference-between-adjacent-elements-in-a-circular-array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | [Java](Maximum_Difference_Between_Adjacent_Elements_in_a_Circular_Array_3423.java) | Easy |
-| 45 | 3442 | Hash, Counting | [maximum-difference-between-even-and-odd-frequency-i](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | [Java](Maximum_Difference_Between_Even_and_Odd_Frequency_3442.java) | Easy |
-| 46 | 3516 | Math | [find-closest-person](https://leetcode.com/problems/find-closest-person/) | [Java](Find_Closest_Person_3516.java) | Easy |
+| 31 | 1431 | Array | [kids-with-the-greatest-number-of-candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](Kids_With_the_Greatest_Number_of_Candies_1431.java) | Easy |
+| 32 | 1446 | String | [consecutive-characters](https://leetcode.com/problems/consecutive-characters/) | [Java](Consecutive_Characters_1446.java) | Easy |
+| 33 | 1539 | Math Based | [kth-missing-positive-number](https://leetcode.com/problems/kth-missing-positive-number/) | [Java](Kth_Missing_Positive_Number.java) | Easy |
+| 34 | 1869 | String | [longer-contiguous-segments-of-ones-than-zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | [Java](Longer_Contiguous_Segments_of_Ones_than_Zeros_1869.java) | Easy |
+| 35 | 1935 | String, Hash | [maximum-number-of-words-you-can-type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | [Java](Maximum_Number_of_Words_You_Can_Type_1935.java) | Easy |
+| 36 | 2016 | Array | [maximum-difference-between-increasing-elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | [Java](Maximum_Difference_Between_Increasing_Elements_2016.java) | Easy |
+| 37 | 2144 | Greedy, Sorting | [minimum-cost-of-buying-candies-with-discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Java](MinimumCostofBuyingCandiesWithDiscount_2144.java) | Easy |
+| 38 | 2235 | Math | [add-two-integers](https://leetcode.com/problems/add-two-integers/) | [Java](Add_Two_Integers_2235.java) | Easy |
+| 39 | 2264 | String | [largest-3-same-digit-number-in-string](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Java](Largest_3_Same_Digit_Numberin_String_2264.java) | Easy |
+| 40 | 2873 | Array | [maximum-value-of-an-ordered-triplet-i](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/) | [Java](Maximum_Value_of_an_Ordered_Triplet_I_2873.java) | Easy |
+| 41 | 2894 | Math | [divisible-and-non-divisible-sums-difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | [Java](Divisible_and_Non_divisible_Sums_Difference_2894.java) | Easy |
+| 42 | 2942 | Array, String | [find-words-containing-character](https://leetcode.com/problems/find-words-containing-character/) | [Java](Find_Words_Containing_Character_2942.java) | Easy |
+| 43 | 3024 | Array, Math | [type-of-triangle](https://leetcode.com/problems/type-of-triangle/) | [Java](Type_of_Triangle_3024.java) | Easy |
+| 44 | 3392 | Array | [count-subarrays-of-length-three-with-a-condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | [Java](Count_Subarrays_of_Length_Three_With_a_Condition_3392.java) | Easy |
+| 45 | 3423 | Array | [maximum-difference-between-adjacent-elements-in-a-circular-array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | [Java](Maximum_Difference_Between_Adjacent_Elements_in_a_Circular_Array_3423.java) | Easy |
+| 46 | 3442 | Hash, Counting | [maximum-difference-between-even-and-odd-frequency-i](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | [Java](Maximum_Difference_Between_Even_and_Odd_Frequency_3442.java) | Easy |
+| 47 | 3516 | Math | [find-closest-person](https://leetcode.com/problems/find-closest-person/) | [Java](Find_Closest_Person_3516.java) | Easy |
 
-> **Total in Repo: 46 Problems** | **Total Solved on LeetCode: 127 Easy**
+> **Total in Repo: 47 Problems** | **Total Solved on LeetCode: 127 Easy**
 
 > 📋 See [NOT_UPLOADED.md](NOT_UPLOADED.md) for problems solved on LeetCode but not yet added to this repo.

@@ -1,7 +1,5 @@
-
-
-
-class Solution {
+package Leetcode.Medium;
+public class union_find {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         int leader[]=new int[n];
         for(int i=0;i<n;i++){

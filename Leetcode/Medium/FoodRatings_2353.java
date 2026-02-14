@@ -1,12 +1,10 @@
 package Leetcode.Medium;
 import java.util.*;
-public class Design_a_Food_Rating_System_2353 {
-    
-}
-class FoodRatings {
+
+public class FoodRatings_2353 {
     HashMap<String,Integer> map1=new HashMap<>();
     HashMap<String,ArrayList<String>>map2=new HashMap<>();
-    public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
+    public FoodRatings_2353(String[] foods, String[] cuisines, int[] ratings) {
         for(int i=0;i<foods.length;i++){
             map1.put(foods[i],ratings[i]);
             ArrayList<String> L=map2.getOrDefault(cuisines[i],new ArrayList<>());

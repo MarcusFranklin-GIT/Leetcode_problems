@@ -1,4 +1,5 @@
-class Solution {
+package Leetcode.Medium;
+public class Set_Matrix_Zeroes_73 {
     public void setZeroes(int[][] matrix) {
         boolean r=false,c=false;
         int R=matrix.length,C=matrix[0].length;

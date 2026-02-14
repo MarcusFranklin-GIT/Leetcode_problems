@@ -6,12 +6,12 @@ This folder contains solutions to LeetCode problems organized by difficulty leve
 
 | Folder | Description | Count |
 |--------|-------------|-------|
-| [Easy](Easy/) | Easy difficulty problems 🟢 | 42 |
-| [Medium](Medium/) | Medium difficulty problems 🟡 | 27 |
+| [Easy](Easy/) | Easy difficulty problems 🟢 | 47 |
+| [Medium](Medium/) | Medium difficulty problems 🟡 | 26 |
 | [Hard](Hard/) | Hard difficulty problems 🔴 | 7 |
-| [LinkedList](LinkedList/) | Linked List & Binary Tree problems 🔗 | 10 |
+| [LinkedList](LinkedList/) | Linked List & Binary Tree problems 🔗 | 11 |
 
-> **Total: 86 Problems Solved**
+> **Total: 91 Problems Solved**
 
 ## Topics Covered
 

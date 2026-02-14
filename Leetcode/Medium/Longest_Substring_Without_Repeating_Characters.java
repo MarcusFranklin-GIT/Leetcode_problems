@@ -1,6 +1,6 @@
 package Leetcode.Medium;
 import java.util.*;
-class Longest_Substring_Without_Repeating_Characters {
+public class Longest_Substring_Without_Repeating_Characters {
     public int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> position=new HashMap<>();
         int len=s.length();
