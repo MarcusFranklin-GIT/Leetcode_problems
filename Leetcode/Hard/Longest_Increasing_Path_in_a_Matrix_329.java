@@ -1,4 +1,5 @@
-class Solution {
+package Leetcode.Hard;
+public class Longest_Increasing_Path_in_a_Matrix_329 {
     int diff[][] = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
     
     private int dfs(int[][] matrix, int[][] dp, int row, int col) {

@@ -1,4 +1,6 @@
-class Solution {
+package Leetcode.Hard;
+
+public class Making_A_Large_Island_827 {
 
     int diffs[][] = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
 

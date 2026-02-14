@@ -1,6 +1,7 @@
+package Leetcode.Hard;
 import java.util.*;
 
-class Solution {
+public class Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_Matrix_1284 {
     public int minFlips(int[][] mat) {
         int diff[][] = { { 0, 0 }, { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
         int R = mat.length, C = mat[0].length;
