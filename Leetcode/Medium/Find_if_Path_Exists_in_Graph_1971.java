@@ -1,5 +1,5 @@
 package Leetcode.Medium;
-public class union_find {
+public class Find_if_Path_Exists_in_Graph_1971 {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         int leader[]=new int[n];
         for(int i=0;i<n;i++){
@@ -30,3 +30,5 @@ public class union_find {
         return leader[node];
     }
 }
+
+
