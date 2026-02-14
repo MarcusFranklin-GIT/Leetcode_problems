@@ -10,15 +10,15 @@ A collection of easy-level LeetCode problem solutions.
 |------|--------|-------|-------|----------|------------|
 | 1 | 136 | Bit Manipulation | [single-number](https://leetcode.com/problems/single-number/) | [Java](Single_Number_136.java) | Easy |
 | 2 | 169 | Array, Hash | [majority-element](https://leetcode.com/problems/majority-element/) | [Java](second_largest.java) | Easy |
-| 3 | 125 | Two Pointer | [valid-palindrome](https://leetcode.com/problems/valid-palindrome/) | Java | Easy |
+| 3 | 125 | Two Pointer | [valid-palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](Valid_Palindrome_125.java) | Easy |
 | 4 | 367 | Math, Binary Search | [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | [Java](Valid_Perfect_Square_367.java) | Easy |
-| 5 | 20 | Stack | [valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | Java | Easy |
+| 5 | 20 | Stack | [valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](Valid_Parentheses_20.java) | Easy |
 | 6 | 1539 | Math Based | [kth-missing-positive-number](https://leetcode.com/problems/kth-missing-positive-number/) | [Java](Kth_Missing_Positive_Number.java) | Easy |
-| 7 | 997 | Two Pointers, Sorting | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Java | Easy |
+| 7 | 977 | Two Pointers, Sorting | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](Squares_of_a_Sorted_Array_977.java) | Easy |
 | 8 | 70 | Math, DP | [climbing-stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](Climbing_Stairs_70.java) | Easy |
-| 9 | 66 | Array, Math | [plus-one](https://leetcode.com/problems/plus-one/) | Java | Easy |
+| 9 | 66 | Array, Math | [plus-one](https://leetcode.com/problems/plus-one/) | [Java](Plus_One_66.java) | Easy |
 | 10 | 242 | Hash Table, String, Sorting | [valid-anagram](https://leetcode.com/problems/valid-anagram/) | [Java](Valid_Anagram_242.java) | Easy |
-| 11 | 58 | String | [length-of-last-word](https://leetcode.com/problems/length-of-last-word/) | Java | Easy |
+| 11 | 58 | String | [length-of-last-word](https://leetcode.com/problems/length-of-last-word/) | [Java](Length_of_Last_Word_58.java) | Easy |
 | 12 | 35 | Array, Binary Search | [search-insert-position](https://leetcode.com/problems/search-insert-position/) | [Java](Search_Insert_Position_35.java) | Easy |
 | 13 | 1 | Array, Hash | [two-sum](https://leetcode.com/problems/two-sum/) | [Java](Two_Sum_1.java) | Easy |
 | 14 | 21 | Linked List | [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](Merge_Two_Sorted_Lists_21.java) | Easy |
@@ -55,4 +55,4 @@ A collection of easy-level LeetCode problem solutions.
 | 45 | 3442 | Hash, Counting | [maximum-difference-between-even-and-odd-frequency-i](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | [Java](Maximum_Difference_Between_Even_and_Odd_Frequency_3442.java) | Easy |
 | 46 | 3516 | Math | [find-closest-person](https://leetcode.com/problems/find-closest-person/) | [Java](Find_Closest_Person_3516.java) | Easy |
 
-> **Total: 46 Problems**
+> **Total: 47 Problems**
