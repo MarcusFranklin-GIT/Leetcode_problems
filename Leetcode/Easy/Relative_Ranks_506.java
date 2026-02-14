@@ -1,5 +1,4 @@
 package Leetcode.Easy;
-
 class Relative_Ranks_506 {
     public String[] findRelativeRanks(int[] score) {
         int max=0;

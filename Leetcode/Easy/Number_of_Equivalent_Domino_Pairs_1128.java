@@ -1,4 +1,6 @@
-class Solution {
+package Leetcode.Easy;
+import java.util.*;
+public class Number_of_Equivalent_Domino_Pairs_1128 {
     public int numEquivDominoPairs(int[][] domi) {
        int N=domi.length;
        int count=0;
@@ -29,7 +31,7 @@ class Solution {
 
 // hashmap procedure
 
-class Solution {
+class Solution2 {
     public int numEquivDominoPairs(int[][] domi) {
         int N=domi.length;
         int count=0;
@@ -49,7 +51,7 @@ class Solution {
 
 
 //simple array 
-class Solution {
+class Solution3 {
     public int numEquivDominoPairs(int[][] dominoes) {
          int[] num = new int[100];
         int ret = 0;

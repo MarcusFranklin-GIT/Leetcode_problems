@@ -8,7 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+package Leetcode.Easy;
+public class Merge_Two_Sorted_Lists_21 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode root=null;
         ListNode ptr=null;

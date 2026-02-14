@@ -1,13 +1,14 @@
-import java.util.*;
 package Leetcode.Easy;
+import java.util.*;
+
+// public class Intersection_of_Two_Arrays_349 {
+//     public static void main(String[] args) {
+//         int nums1[] = {1,2,2,1}, nums2[] = {2,2};
+//         Solution sol = new Solution();
+//         System.out.println(Arrays.toString(sol.intersection(nums1, nums2)));
+//     }
+// }
 public class Intersection_of_Two_Arrays_349 {
-    public static void main(String[] args) {
-        int nums1[] = {1,2,2,1}, nums2[] = {2,2};
-        Solution sol = new Solution();
-        System.out.println(Arrays.toString(sol.intersection(nums1, nums2)));
-    }
-}
-class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         boolean present[]=new boolean[1001];
         boolean added[]=new boolean[1001];

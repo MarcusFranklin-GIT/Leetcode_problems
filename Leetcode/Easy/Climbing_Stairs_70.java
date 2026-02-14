@@ -1,4 +1,4 @@
-
+package Leetcode.Easy;
 public class Climbing_Stairs_70 {
     public int climbStairs(int n) {
         if(n<=2)return n;

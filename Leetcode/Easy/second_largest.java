@@ -1,7 +1,5 @@
 package Leetcode.Easy;
-
-
-class Solution {
+public class second_largest {
     public int getSecondLargest(int[] arr) {
     int largest = Integer.MIN_VALUE;
     int secondLargest = Integer.MIN_VALUE;

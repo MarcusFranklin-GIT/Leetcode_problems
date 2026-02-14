@@ -13,7 +13,8 @@
  *     }
  * }
  */
-class Solution {
+package Leetcode.Easy;
+class Minimum_Depth_of_Binary_Tree_111 {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
 
