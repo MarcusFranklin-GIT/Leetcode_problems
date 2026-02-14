@@ -2,50 +2,57 @@
 
 A collection of easy-level LeetCode problem solutions.
 
+(Notes: "🔒" means you need to buy a book from Leetcode)
+
 ## Problem List
 
-| # | Problem | Solution | Topic |
-|---|---------|----------|-------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](Two_Sum-1.java) | Array, Hash |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](Merge_Two_Sorted_Lists_21) | Linked List |
-| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Java](Find_the_ndex_of_the_First_Occurrence_in_a_String_28) | String |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Java | Array, Binary Search |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Java | String |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Java | Array, Math |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](Climbing_Stairs_70.java) | Math, DP |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](Binary%20Tree%20Inorder%20Traversal_94.java) | Tree |
-| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](Balanced_Binary_Tree_110.java) | Tree |
-| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Java](Minimum%20Depth%20of%20Binary%20Tree_111) | Tree, BFS |
-| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Java](Path_Sum_112) | Tree, DFS |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Java | Two Pointer |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](Single_Number-136.java) | Bit Manipulation |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Java | Array, Hash |
-| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Java](Excel%20Sheet%20Column%20Number_171) | Math |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](Valid_Anagram242) | Hash Table, String, Sorting |
-| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](Intersection_of_Two_Arrays_349.java) | Array, Hash |
-| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Java](Valid_Perfect_Square_367.java) | Math, Binary Search |
-| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | [Java](assign_cookies_455_greedy) | Greedy, Sorting |
-| 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Java](Relative_Ranks_506.java) | Array, Sorting |
-| 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Java](Student%20Attendance%20Record%20I_551) | String |
-| 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | [Java](Array_Partition_561) | Array, Sorting |
-| 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Java](Transpose%20Matrix_867) | Array, Matrix |
-| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](Middle_of_the_Linked_List.java) | Linked List |
-| 1128 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) | [Java](Number%20of%20Equivalent%20Domino_Pairs_1128) | Array, Hash |
-| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](Find_Numbers_with_Even_Number_of_Digits_1295) | Array |
-| 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Java](1323Maximum69Number) | Math, Greedy |
-| 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | [Java](Kth_Missing_Positive_Number.java) | Math Based |
-| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | [Java](Maximum_Number_of_Words_You_Can_Type_1935.java) | String, Hash |
-| 2016 | [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | [Java](Maximum%20Difference%20Between%20Increasing%20Elements_2016) | Array |
-| 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Java](2144MinimumCostofBuyingCandiesWithDiscount) | Greedy, Sorting |
-| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | [Java](Add_Two_Integers_2235.java) | Math |
-| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Java](2264Largest3SameDigitNumberinString) | String |
-| 2873 | [Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/) | [Java](Maximum_Value_of_an_Ordered_Triplet_I_2873) | Array |
-| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | [Java](Divisible%20and%20Non-divisible%20Sums%20Difference_2894) | Math |
-| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | [Java](Find%20Words%20Containing%20Character_2942) | Array, String |
-| 3024 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | [Java](Type_of_Triangle_3024.java) | Array, Math |
-| 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | [Java](Count_Subarrays_of_Length_Three_With_a_Condition_3392) | Array |
-| 3423 | [Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | [Java](Maximum%20Difference%20Between%20Adjacent%20Elements%20in%20a%20Circular%20Array_3423) | Array |
-| 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | [Java](Maximum%20Difference%20Between%20Even%20and%20Odd%20Frequency%20I_3442) | Hash, Counting |
-| 3516 | [Find Closest Person](https://leetcode.com/problems/find-closest-person/) | [Java](Find_Closest_Person_3516.java) | Math |
+| Days | Number | Topic | Title | Solution | Difficulty |
+|------|--------|-------|-------|----------|------------|
+| 1 | 136 | Bit Manipulation | [single-number](https://leetcode.com/problems/single-number/) | [Java](Single_Number_136.java) | Easy |
+| 2 | 169 | Array, Hash | [majority-element](https://leetcode.com/problems/majority-element/) | [Java](second_largest.java) | Easy |
+| 3 | 125 | Two Pointer | [valid-palindrome](https://leetcode.com/problems/valid-palindrome/) | Java | Easy |
+| 4 | 367 | Math, Binary Search | [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | [Java](Valid_Perfect_Square_367.java) | Easy |
+| 5 | 20 | Stack | [valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | Java | Easy |
+| 6 | 1539 | Math Based | [kth-missing-positive-number](https://leetcode.com/problems/kth-missing-positive-number/) | [Java](Kth_Missing_Positive_Number.java) | Easy |
+| 7 | 997 | Two Pointers, Sorting | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Java | Easy |
+| 8 | 70 | Math, DP | [climbing-stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](Climbing_Stairs_70.java) | Easy |
+| 9 | 66 | Array, Math | [plus-one](https://leetcode.com/problems/plus-one/) | Java | Easy |
+| 10 | 242 | Hash Table, String, Sorting | [valid-anagram](https://leetcode.com/problems/valid-anagram/) | [Java](Valid_Anagram_242.java) | Easy |
+| 11 | 58 | String | [length-of-last-word](https://leetcode.com/problems/length-of-last-word/) | Java | Easy |
+| 12 | 35 | Array, Binary Search | [search-insert-position](https://leetcode.com/problems/search-insert-position/) | [Java](Search_Insert_Position_35.java) | Easy |
+| 13 | 1 | Array, Hash | [two-sum](https://leetcode.com/problems/two-sum/) | [Java](Two_Sum_1.java) | Easy |
+| 14 | 21 | Linked List | [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](Merge_Two_Sorted_Lists_21.java) | Easy |
+| 15 | 28 | String | [find-the-index-of-the-first-occurrence-in-a-string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Java](Find_the_Index_of_the_First_Occurrence_in_a_String_28.java) | Easy |
+| 16 | 94 | Tree | [binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](Binary_Tree_Inorder_Traversal_94.java) | Easy |
+| 17 | 110 | Tree | [balanced-binary-tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](Balanced_Binary_Tree_110.java) | Easy |
+| 18 | 111 | Tree, BFS | [minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Java](Minimum_Depth_of_Binary_Tree_111.java) | Easy |
+| 19 | 112 | Tree, DFS | [path-sum](https://leetcode.com/problems/path-sum/) | [Java](Path_Sum_112.java) | Easy |
+| 20 | 171 | Math | [excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number/) | [Java](Excel_Sheet_Column_Number_171.java) | Easy |
+| 21 | 349 | Array, Hash | [intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](Intersection_of_Two_Arrays_349.java) | Easy |
+| 22 | 455 | Greedy, Sorting | [assign-cookies](https://leetcode.com/problems/assign-cookies/) | [Java](assign_cookies_455.java) | Easy |
+| 23 | 485 | Array | [max-consecutive-ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](Max_Consecutive_Ones_485.java) | Easy |
+| 24 | 506 | Array, Sorting | [relative-ranks](https://leetcode.com/problems/relative-ranks/) | [Java](Relative_Ranks_506.java) | Easy |
+| 25 | 551 | String | [student-attendance-record-i](https://leetcode.com/problems/student-attendance-record-i/) | [Java](Student_Attendance_Record_I_551.java) | Easy |
+| 26 | 561 | Array, Sorting | [array-partition](https://leetcode.com/problems/array-partition/) | [Java](Array_Partition_561.java) | Easy |
+| 27 | 867 | Array, Matrix | [transpose-matrix](https://leetcode.com/problems/transpose-matrix/) | [Java](Transpose_Matrix_867.java) | Easy |
+| 28 | 876 | Linked List | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](Middle_of_the_Linked_List.java) | Easy |
+| 29 | 1128 | Array, Hash | [number-of-equivalent-domino-pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) | [Java](Number_of_Equivalent_Domino_Pairs_1128.java) | Easy |
+| 30 | 1295 | Array | [find-numbers-with-even-number-of-digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](Find_Numbers_with_Even_Number_of_Digits_1295.java) | Easy |
+| 31 | 1323 | Math, Greedy | [maximum-69-number](https://leetcode.com/problems/maximum-69-number/) | [Java](Maximum69Number_1323.java) | Easy |
+| 32 | 1446 | String | [consecutive-characters](https://leetcode.com/problems/consecutive-characters/) | [Java](Consecutive_Characters_1446.java) | Easy |
+| 33 | 1869 | String | [longer-contiguous-segments-of-ones-than-zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | [Java](Longer_Contiguous_Segments_of_Ones_than_Zeros_1869.java) | Easy |
+| 34 | 1935 | String, Hash | [maximum-number-of-words-you-can-type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | [Java](Maximum_Number_of_Words_You_Can_Type_1935.java) | Easy |
+| 35 | 2016 | Array | [maximum-difference-between-increasing-elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | [Java](Maximum_Difference_Between_Increasing_Elements_2016.java) | Easy |
+| 36 | 2144 | Greedy, Sorting | [minimum-cost-of-buying-candies-with-discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Java](MinimumCostofBuyingCandiesWithDiscount_2144.java) | Easy |
+| 37 | 2235 | Math | [add-two-integers](https://leetcode.com/problems/add-two-integers/) | [Java](Add_Two_Integers_2235.java) | Easy |
+| 38 | 2264 | String | [largest-3-same-digit-number-in-string](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Java](Largest_3_Same_Digit_Numberin_String_2264.java) | Easy |
+| 39 | 2873 | Array | [maximum-value-of-an-ordered-triplet-i](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/) | [Java](Maximum_Value_of_an_Ordered_Triplet_I_2873.java) | Easy |
+| 40 | 2894 | Math | [divisible-and-non-divisible-sums-difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | [Java](Divisible_and_Non_divisible_Sums_Difference_2894.java) | Easy |
+| 41 | 2942 | Array, String | [find-words-containing-character](https://leetcode.com/problems/find-words-containing-character/) | [Java](Find_Words_Containing_Character_2942.java) | Easy |
+| 42 | 3024 | Array, Math | [type-of-triangle](https://leetcode.com/problems/type-of-triangle/) | [Java](Type_of_Triangle_3024.java) | Easy |
+| 43 | 3392 | Array | [count-subarrays-of-length-three-with-a-condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | [Java](Count_Subarrays_of_Length_Three_With_a_Condition_3392.java) | Easy |
+| 44 | 3423 | Array | [maximum-difference-between-adjacent-elements-in-a-circular-array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | [Java](Maximum_Difference_Between_Adjacent_Elements_in_a_Circular_Array_3423.java) | Easy |
+| 45 | 3442 | Hash, Counting | [maximum-difference-between-even-and-odd-frequency-i](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | [Java](Maximum_Difference_Between_Even_and_Odd_Frequency_3442.java) | Easy |
+| 46 | 3516 | Math | [find-closest-person](https://leetcode.com/problems/find-closest-person/) | [Java](Find_Closest_Person_3516.java) | Easy |
 
-> **Total: 42 Problems**
+> **Total: 46 Problems**
