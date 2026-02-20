@@ -1,5 +1,4 @@
 package Leetcode.Medium;    
-import java.util.*;
 public class Binary_Subarrays_With_Sum_930 {
     public int numSubarraysWithSum(int[] nums, int goal) {
         return atmost(nums,goal)-atmost(nums,goal-1);
