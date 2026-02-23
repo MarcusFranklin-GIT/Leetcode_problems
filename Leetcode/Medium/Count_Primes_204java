@@ -1,0 +1,39 @@
+package Leetcode.Medium;
+import java.util.Arrays;
+public class Count_Primes_204 {
+    public int countPrimes(int N) {
+        if(N<2)return 0;
+        int prime[]=new int[N+1];
+        Arrays.fill(prime,1);
+
+        for(int i=2;i*i<=N;i++){
+            if(prime[i]==1){
+                for(int j=i*i;j<=N;j+=i){
+                    prime[j]=0;
+                }
+            }
+        }
+        int count=0;
+        for(int num=2;num<=N;num++){
+            if(prime[num]==1)count++;
+        }
+        return count;
+    }
+}
+
+class brute{
+    public int countPrimes(int N) {
+        if(N<2)return 0;
+        int count=0;
+        for(int num=2;num<N;num++){
+            if(isPrime(num))count++;
+        }
+        return count;
+    }
+    private boolean isPrime(int num){
+        for(int i=2;i*i<=num;i++){
+            if(num%i==0)return false;
+        }
+        return true;
+    }
+}
