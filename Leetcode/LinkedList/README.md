@@ -22,5 +22,6 @@ Solutions to LeetCode problems focused on Linked List and Binary Tree data struc
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Java](Binarytree/Populating_Next_Right_Pointers_in_Each_Node_116.java) | Tree, BFS |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Java](Binarytree/Populating_Next_Right_Pointers_in_Each_Node_II_177.java) | Tree, BFS |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Java](Binarytree/Binary_Tree_Right_Side_View_199.java) | Tree, BFS, DFS |
+| 1022 | [Sum of Root to Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Java](Binarytree/Sum_of_Root_To_Leaf_Binary_Numbers_1022.java) | Tree, Math |
 
-> **Total: 11 Problems**
+> **Total: 12 Problems**

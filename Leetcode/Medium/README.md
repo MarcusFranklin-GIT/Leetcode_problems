@@ -10,6 +10,7 @@ A collection of medium-level LeetCode problem solutions.
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Java](Longest_Palindromic_Substring_5.java) | String, DP |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](ReverseInteger_7.java) | Math |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Java](Container_With_Most_Water_11.java) | Two Pointers |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Java](Next_Permutation_31.java) | Array, Two Pointers |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Java](Search_in_Rotated_Sorted_Array_33.java) | Binary Search |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](valid_sudoku_36.java) | Array, Hash |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [Java](Permutations_46.java) | Backtracking |
@@ -19,11 +20,18 @@ A collection of medium-level LeetCode problem solutions.
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Java](Sort_Colors_75.java) | Array, Sorting |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](Interleaving_String_97.java) | String, DP |
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Java](Surrounded_Regions_130.java) | BFS, DFS, Matrix |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Java](Majority_Element_169.java) | Array, Hash |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Java](House_Robber_198.java) | DP |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Java](Number_of_Islands_200.java) | BFS, DFS, Matrix |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [Java](Count_Primes_204java) | Math, Sieve |
+| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Java](Longest_Repeating_Character_Replacement_424.java) | String, Sliding Window |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [Java](Sum_of_Square_Numbers_633.java) | Math, Two Pointers |
+| 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | [Java](Champagne_Tower_799.java) | DP, Simulation |
+| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | [Java](Binary_Subarrays_With_Sum_930.java) | Array, Prefix Sum, Sliding Window |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Java](Max_Consecutive_Ones_1004.java) | Sliding Window |
 | 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | [Java](Lexicographically_Smallest_Equivalent_String_1061.java) | String, Union Find |
+| 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Java](Count_Number_of_Nice_Subarrays_1248.java) | Array, Sliding Window, Math |
+| 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Java](Minimum_Remove_to_Make_Valid_Parentheses_1249.java) | String, Stack |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | [Java](The_kth_Factor_of_n_1492.java) | Math |
 | 1578 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | [Java](Minimum_Time_to_Make_Rope_Colorful_578.java) | Greedy, String |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [Java](Find_if_Path_Exists_in_Graph_1971.java) | Graph, BFS, DFS |
@@ -34,4 +42,4 @@ A collection of medium-level LeetCode problem solutions.
 | 3355 | [Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/) | [Java](Zero_Array_Transformation_I_3355.java) | Array, Prefix Sum |
 | 3446 | [Sort Matrix by Diagonals](https://leetcode.com/problems/sort-the-matrix-diagonally/) | [Java](Sort_Matrix_by_Diagonals_3446.java) | Array, Matrix, Sorting |
 
-> **Total: 27 Problems**
+> **Total: 35 Problems**
