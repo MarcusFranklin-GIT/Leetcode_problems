@@ -1,4 +1,4 @@
-package Skillrack_DT_DC;
+// package Skillrack_DT_DC;
 
 import java.util.*;
 public class factors_of_submat {
