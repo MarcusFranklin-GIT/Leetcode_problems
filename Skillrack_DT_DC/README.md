@@ -61,6 +61,8 @@ Solutions to daily test (DT) and daily challenge (DC) problems from [SkillRack](
 | 53 | Total Time in Binary | [Java](total_time_inbinary.java) | Java |
 | 54 | Water Leak | [Java](water_leak_27-4-25) | Java |
 | 55 | Word Expansions | [Java](word_expantions.java) | Java |
+| 56 | Get Matrix From Array | [Java](getMatrix_From_Array_30_4_25) | Java |
+| 57 | Frequency Shift Encryption | [Java](frequency_shift_encription.java) | Java |
 
 ## Sub-Folders
 
@@ -70,6 +72,13 @@ Solutions to daily test (DT) and daily challenge (DC) problems from [SkillRack](
 |---|---------|----------|----------|
 | 1 | Book | [Java](12th_feb_weekly/Book.java) | Java |
 | 2 | Single Max | [Java](12th_feb_weekly/singlemax.java) | Java |
+
+### 26th Feb Weekly Test
+
+| # | Problem | Solution | Language |
+|---|---------|----------|----------|
+| 1 | Matrix Transpose | [Java](26th_feb_weekly/matrix_transpose.java) | Java |
+| 2 | Pyramid Pattern | [Java](26th_feb_weekly/piramidpattern.java) | Java |
 
 ### Filtration Test
 
@@ -88,4 +97,4 @@ Solutions to daily test (DT) and daily challenge (DC) problems from [SkillRack](
 | 11 | Wand Spell | [Java](filtration_test/wand_spell.java) | Java |
 | 12 | Word Search | [Java](filtration_test/Word_search.java) | Java |
 
-> **Total: 69 Problems**
+> **Total: 73 Problems**

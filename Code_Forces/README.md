@@ -17,4 +17,12 @@ Solutions to problems from [Codeforces](https://codeforces.com/) competitive pro
 | 9 | Sand Clock | [Java](sandClock.java) | Java |
 | 10 | Trek | [Java](trek.java) | Java |
 
-> **Total: 10 Problems**
+### Feb 26 Contest
+
+| # | Problem | Solution | Language |
+|---|---------|----------|----------|
+| 11 | Dice Roll Sequence | [Java](feb26/Dice_Roll_Sequence.java) | Java |
+| 12 | Heapify 1 | [Java](feb26/Heapify_1.java) | Java |
+| 13 | Sieve of Eratosthenes | [Java](feb26/Sieve_of_Erato67henes.java) | Java |
+
+> **Total: 13 Problems**

@@ -8,39 +8,39 @@ This repository serves as a collection of my problem-solving journey across mult
 
 | # | Platform | Folder | Problems | Description |
 |---|----------|--------|----------|-------------|
-| 1 | LeetCode | [Leetcode/](Leetcode/) | 86 | Problems sorted by difficulty (Easy, Medium, Hard) & data structures |
+| 1 | LeetCode | [Leetcode/](Leetcode/) | 102 | Problems sorted by difficulty (Easy, Medium, Hard) & data structures |
 | 2 | AtCoder | [AtCoder/](AtCoder/) | 13 | AtCoder competitive programming contest solutions |
-| 3 | Codeforces | [Code_Forces/](Code_Forces/) | 10 | Codeforces contest solutions |
+| 3 | Codeforces | [Code_Forces/](Code_Forces/) | 13 | Codeforces contest solutions |
 | 4 | GeeksforGeeks | [GFG/](GFG/) | 12 | GFG problems including Graph, Tree & more |
 | 5 | HackerRank | [HackerRank/](HackerRank/) | 2 | HackerRank problem solutions |
-| 6 | SkillRack DT/DC | [Skillrack_DT_DC/](Skillrack_DT_DC/) | 69 | SkillRack Daily Test & Daily Challenge solutions |
+| 6 | SkillRack DT/DC | [Skillrack_DT_DC/](Skillrack_DT_DC/) | 73 | SkillRack Daily Test & Daily Challenge solutions |
 | 7 | SkillRack HOPE | [SkillRack_HOPE/](SkillRack_HOPE/) | 31 | SkillRack HOPE (Hands-On Programming Experience) solutions |
 
-> **Grand Total: 223+ Problems Solved**
+> **Grand Total: 246+ Problems Solved**
 
 ## 🏆 LeetCode Problem Categories
 
 | Difficulty | Folder | Count |
 |------------|--------|-------|
-| Easy 🟢 | [Leetcode/Easy/](Leetcode/Easy/) | 42 |
-| Medium 🟡 | [Leetcode/Medium/](Leetcode/Medium/) | 27 |
+| Easy 🟢 | [Leetcode/Easy/](Leetcode/Easy/) | 48 |
+| Medium 🟡 | [Leetcode/Medium/](Leetcode/Medium/) | 35 |
 | Hard 🔴 | [Leetcode/Hard/](Leetcode/Hard/) | 7 |
-| LinkedList & Trees 🔗 | [Leetcode/LinkedList/](Leetcode/LinkedList/) | 10 |
+| LinkedList & Trees 🔗 | [Leetcode/LinkedList/](Leetcode/LinkedList/) | 12 |
 
 ## 📂 Repository Structure
 
 ```
 📦 Leetcode_problems
  ┣ 📂 Leetcode/
- ┃ ┣ 📂 Easy/          ── 42 easy problems
- ┃ ┣ 📂 Medium/        ── 27 medium problems
+ ┃ ┣ 📂 Easy/          ── 48 easy problems
+ ┃ ┣ 📂 Medium/        ── 35 medium problems
  ┃ ┣ 📂 Hard/          ── 7 hard problems
- ┃ ┗ 📂 LinkedList/    ── 10 linked list & tree problems
+ ┃ ┗ 📂 LinkedList/    ── 12 linked list & tree problems
  ┣ 📂 AtCoder/         ── 13 AtCoder problems
- ┣ 📂 Code_Forces/     ── 10 Codeforces problems
+ ┣ 📂 Code_Forces/     ── 13 Codeforces problems
  ┣ 📂 GFG/             ── 12 GeeksforGeeks problems
  ┣ 📂 HackerRank/      ── 2 HackerRank problems
- ┣ 📂 Skillrack_DT_DC/ ── 69 SkillRack DT/DC problems
+ ┣ 📂 Skillrack_DT_DC/ ── 73 SkillRack DT/DC problems
  ┣ 📂 SkillRack_HOPE/  ── 31 SkillRack HOPE problems
  ┗ 📜 README.md
 ```
