@@ -21,7 +21,7 @@ public class Count_Primes_204 {
     }
 }
 
-class brute{
+class count_prime_brute{
     public int countPrimes(int N) {
         if(N<2)return 0;
         int count=0;
