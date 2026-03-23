@@ -4,9 +4,9 @@ Solutions for HackerRank problems in this folder.
 
 ## Problem List
 
-| # | Problem | File | Language |
-|---|---------|------|----------|
-| 1 | Minimum Platforms | [Minimum_Platforms.java](Minimum_Platforms.java) | Java |
-| 2 | Sandglass | [sandglass.java](sandglass.java) | Java |
+| # | Problem | Language |
+|---|---|---|
+| 1 | [Minimum Platforms](https://leetcode.com/problems/minimum-platforms/) | [Java](Minimum_Platforms.java) |
+| 2 | [Sandglass](https://leetcode.com/problems/sandglass/) | [Java](sandglass.java) |
 
 > Total: 2
