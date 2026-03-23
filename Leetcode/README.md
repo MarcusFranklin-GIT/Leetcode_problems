@@ -1,31 +1,21 @@
-# LeetCode Solutions 🚀
+# LeetCode Solutions
 
-This folder contains solutions to LeetCode problems organized by difficulty level and data structure.
+This folder contains LeetCode solutions organized by difficulty and topic folders.
 
-## Folder Structure
+## Categories
 
-| Folder | Description | Count |
-|--------|-------------|-------|
-| [Easy](Easy/) | Easy difficulty problems 🟢 | 48 |
-| [Medium](Medium/) | Medium difficulty problems 🟡 | 35 |
-| [Hard](Hard/) | Hard difficulty problems 🔴 | 7 |
-| [LinkedList](LinkedList/) | Linked List & Binary Tree problems 🔗 | 12 |
+| Category | Folder | Count |
+|----------|--------|-------|
+| Easy | [Easy](Easy/) | 56 |
+| Medium | [Medium](Medium/) | 46 |
+| Hard | [Hard](Hard/) | 10 |
+| LinkedList and Tree | [LinkedList](LinkedList/) | 21 |
 
-> **Total: 102 Problems Solved**
+> Total: 133
 
-## Topics Covered
+## Folder READMEs
 
-- Array & Matrix
-- String & Hash Table
-- Linked List & Binary Tree
-- Dynamic Programming
-- Two Pointers & Sliding Window
-- BFS & DFS
-- Binary Search
-- Backtracking
-- Bit Manipulation
-- Greedy
-- Sorting
-- Stack
-- Math
-- Union Find
+- [Easy README](Easy/README.md)
+- [Medium README](Medium/README.md)
+- [Hard README](Hard/README.md)
+- [LinkedList README](LinkedList/README.md)

@@ -1,27 +1,31 @@
-# LeetCode - Linked List & Binary Tree Problems 🔗🌳
+# LeetCode Linked List and Tree Solutions
 
-Solutions to LeetCode problems focused on Linked List and Binary Tree data structures.
+LeetCode linked list and tree problem solutions in this folder and subfolders.
 
-## Linked List Problems
+## Problem List
 
-| # | Problem | Solution | Topic |
-|---|---------|----------|-------|
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](Add_Two_Numbers_2.java) | Linked List, Math |
-| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](Remove_Nth_Node_From_End_of_List_19.java) | Linked List, Two Pointers |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](Merge_Two_Sorted_Lists_21.java) | Linked List |
-| 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](Rotate_List_61.java) | Linked List |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](Linked_List_Cycle_141.java) | Linked List, Two Pointers |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](Reverse_Linked_List_206.java) | Linked List |
-| 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Java](Delete_Node_in_a_Linked_List_237.java) | Linked List |
-| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](Middle_of_the_Linked_List_876.java) | Linked List, Two Pointers |
+| # | Problem | File | Language |
+|---|---------|------|----------|
+| 1 | Add Two Numbers 2 | [Add_Two_Numbers_2.java](Add_Two_Numbers_2.java) | Java |
+| 2 | Binary Tree Postorder Traversal 145 | [Binary_Tree_Postorder_Traversal_145.java](Binarytree/Binary_Tree_Postorder_Traversal_145.java) | Java |
+| 3 | Binary Tree Preorder Traversal 144 | [Binary_Tree_Preorder_Traversal_144.java](Binarytree/Binary_Tree_Preorder_Traversal_144.java) | Java |
+| 4 | Binary Tree Right Side View 199 | [Binary_Tree_Right_Side_View_199.java](Binarytree/Binary_Tree_Right_Side_View_199.java) | Java |
+| 5 | Construct String From Binary Tree 606 | [Construct_String_from_Binary_Tree_606.java](Binarytree/Construct_String_from_Binary_Tree_606.java) | Java |
+| 6 | Count Complete Tree Nodes 222 | [Count_Complete_Tree_Nodes_222.java](Binarytree/Count_Complete_Tree_Nodes_222.java) | Java |
+| 7 | Delete Node In A Bst 450 | [Delete_Node_in_a_BST_450.java](Binarytree/Delete_Node_in_a_BST_450.java) | Java |
+| 8 | Merge Two Binary Trees 617 | [Merge_Two_Binary_Trees_617.java](Binarytree/Merge_Two_Binary_Trees_617.java) | Java |
+| 9 | Populating Next Right Pointers In Each Node 116 | [Populating_Next_Right_Pointers_in_Each_Node_116.java](Binarytree/Populating_Next_Right_Pointers_in_Each_Node_116.java) | Java |
+| 10 | Populating Next Right Pointers In Each Node Ii 177 | [Populating_Next_Right_Pointers_in_Each_Node_II_177.java](Binarytree/Populating_Next_Right_Pointers_in_Each_Node_II_177.java) | Java |
+| 11 | Sum Of Root To Leaf Binary Numbers 1022 | [Sum_of_Root_To_Leaf_Binary_Numbers_1022.java](Binarytree/Sum_of_Root_To_Leaf_Binary_Numbers_1022.java) | Java |
+| 12 | Delete Node In A Linked List 237 | [Delete_Node_in_a_Linked_List_237.java](Delete_Node_in_a_Linked_List_237.java) | Java |
+| 13 | Linked List Cycle 141 | [Linked_List_Cycle_141.java](Linked_List_Cycle_141.java) | Java |
+| 14 | Listnode | [ListNode.java](ListNode.java) | Java |
+| 15 | Merge Two Sorted Lists 21 | [Merge_Two_Sorted_Lists_21.java](Merge_Two_Sorted_Lists_21.java) | Java |
+| 16 | Middle Of The Linked List 876 | [Middle_of_the_Linked_List_876.java](Middle_of_the_Linked_List_876.java) | Java |
+| 17 | Remove Nth Node From End Of List 19 | [Remove_Nth_Node_From_End_of_List_19.java](Remove_Nth_Node_From_End_of_List_19.java) | Java |
+| 18 | Reverse Linked List 206 | [Reverse_Linked_List_206.java](Reverse_Linked_List_206.java) | Java |
+| 19 | Reverse Nodes In K Group 25 | [Reverse_Nodes_in_k_Group_25.java](Reverse_Nodes_in_k_Group_25.java) | Java |
+| 20 | Rotate List 61 | [Rotate_List_61.java](Rotate_List_61.java) | Java |
+| 21 | Rotate Ll 61 | [Rotate_LL_61.java](Rotate_LL_61.java) | Java |
 
-## Binary Tree Problems
-
-| # | Problem | Solution | Topic |
-|---|---------|----------|-------|
-| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Java](Binarytree/Populating_Next_Right_Pointers_in_Each_Node_116.java) | Tree, BFS |
-| 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Java](Binarytree/Populating_Next_Right_Pointers_in_Each_Node_II_177.java) | Tree, BFS |
-| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Java](Binarytree/Binary_Tree_Right_Side_View_199.java) | Tree, BFS, DFS |
-| 1022 | [Sum of Root to Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Java](Binarytree/Sum_of_Root_To_Leaf_Binary_Numbers_1022.java) | Tree, Math |
-
-> **Total: 12 Problems**
+> Total: 21

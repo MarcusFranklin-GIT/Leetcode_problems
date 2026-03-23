@@ -1,28 +1,23 @@
-# Codeforces Solutions 💻
+# Codeforces Solutions
 
-Solutions to problems from [Codeforces](https://codeforces.com/) competitive programming contests.
+Solutions for Codeforces problems in this folder and subfolders.
 
 ## Problem List
 
-| # | Problem | Solution | Language |
-|---|---------|----------|----------|
-| 1 | Alternating Series | [Java](AlternatingSeries.java) | Java |
-| 2 | Blackboard | [Java](blackboard.java) | Java |
-| 3 | Common Char | [Java](Commonchar.java) | Java |
-| 4 | Lever | [Java](Lever.java) | Java |
-| 5 | Only One Digit | [Java](Only_One_Digit.java) | Java |
-| 6 | Only One Digit 2 | [Java](Only_One_Digit_2.java) | Java |
-| 7 | Prefix Min Suffix Max | [Java](PrefixMinSuffixMax.java) | Java |
-| 8 | Recycling Center | [Java](Recycling_Center.java) | Java |
-| 9 | Sand Clock | [Java](sandClock.java) | Java |
-| 10 | Trek | [Java](trek.java) | Java |
+| # | Problem | File | Language |
+|---|---------|------|----------|
+| 1 | Alternatingseries | [AlternatingSeries.java](AlternatingSeries.java) | Java |
+| 2 | Blackboard | [blackboard.java](blackboard.java) | Java |
+| 3 | Commonchar | [Commonchar.java](Commonchar.java) | Java |
+| 4 | Dice Roll Sequence | [Dice_Roll_Sequence.java](feb26/Dice_Roll_Sequence.java) | Java |
+| 5 | Heapify 1 | [Heapify_1.java](feb26/Heapify_1.java) | Java |
+| 6 | Sieve Of Erato67henes | [Sieve_of_Erato67henes.java](feb26/Sieve_of_Erato67henes.java) | Java |
+| 7 | Lever | [Lever.java](Lever.java) | Java |
+| 8 | Only One Digit | [Only_One_Digit.java](Only_One_Digit.java) | Java |
+| 9 | Only One Digit 2 | [Only_One_Digit_2.java](Only_One_Digit_2.java) | Java |
+| 10 | Prefixminsuffixmax | [PrefixMinSuffixMax.java](PrefixMinSuffixMax.java) | Java |
+| 11 | Recycling Center | [Recycling_Center.java](Recycling_Center.java) | Java |
+| 12 | Sandclock | [sandClock.java](sandClock.java) | Java |
+| 13 | Trek | [trek.java](trek.java) | Java |
 
-### Feb 26 Contest
-
-| # | Problem | Solution | Language |
-|---|---------|----------|----------|
-| 11 | Dice Roll Sequence | [Java](feb26/Dice_Roll_Sequence.java) | Java |
-| 12 | Heapify 1 | [Java](feb26/Heapify_1.java) | Java |
-| 13 | Sieve of Eratosthenes | [Java](feb26/Sieve_of_Erato67henes.java) | Java |
-
-> **Total: 13 Problems**
+> Total: 13

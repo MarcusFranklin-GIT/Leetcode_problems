@@ -1,12 +1,12 @@
-# HackerRank Solutions 🟩
+# HackerRank Solutions
 
-Solutions to problems from [HackerRank](https://www.hackerrank.com/).
+Solutions for HackerRank problems in this folder.
 
 ## Problem List
 
-| # | Problem | Solution | Topic |
-|---|---------|----------|-------|
-| 1 | Minimum Platforms | [Java](Minimum_Platforms.java) | Greedy, Sorting |
-| 2 | Sandglass | [Java](sandglass.java) | Implementation |
+| # | Problem | File | Language |
+|---|---------|------|----------|
+| 1 | Minimum Platforms | [Minimum_Platforms.java](Minimum_Platforms.java) | Java |
+| 2 | Sandglass | [sandglass.java](sandglass.java) | Java |
 
-> **Total: 2 Problems**
+> Total: 2

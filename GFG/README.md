@@ -1,32 +1,26 @@
-# GeeksforGeeks Solutions 📗
+# GeeksforGeeks Solutions
 
-Solutions to problems from [GeeksforGeeks](https://www.geeksforgeeks.org/).
+Solutions for GeeksforGeeks problems in this folder and subfolders.
 
-## Graph Algorithms
+## Problem List
 
-| # | Problem | Solution | Topic |
-|---|---------|----------|-------|
-| 1 | BFS (Breadth-First Search) | [Java](BFS.java) | Graph |
-| 2 | DFS (Depth-First Search) | [Java](DFS.java) | Graph |
+| # | Problem | File | Language |
+|---|---------|------|----------|
+| 1 | Bfs | [BFS.java](BFS.java) | Java |
+| 2 | Bottomview | [bottomview.java](Binary tree/bottomview.java) | Java |
+| 3 | Bst Operations | [BST_operations.java](Binary tree/BST_operations.java) | Java |
+| 4 | Topview | [topview.java](Binary tree/topview.java) | Java |
+| 5 | Traversals | [traversals.java](Binary tree/traversals.java) | Java |
+| 6 | Dfs | [DFS.java](DFS.java) | Java |
+| 7 | Container With Most Water | [Container_With_Most_Water.java](problems/Container_With_Most_Water.java) | Java |
+| 8 | Count Substring | [Count_Substring.java](problems/Count_Substring.java) | Java |
+| 9 | Knitemoves | [knitemoves.java](problems/knitemoves.java) | Java |
+| 10 | Knites Tour Warnsdorff | [knites_tour_Warnsdorff.java](problems/knites_tour_Warnsdorff.java) | Java |
+| 11 | Longest Substring With K Uniques | [Longest_Substring_with_K_Uniques.java](problems/Longest_Substring_with_K_Uniques.java) | Java |
+| 12 | Max Xor Subarray Of Size K | [Max_Xor_Subarray_of_size_K.java](problems/Max_Xor_Subarray_of_size_K.java) | Java |
+| 13 | Move All Zeroes To End | [Move_All_Zeroes_to_End.java](problems/Move_All_Zeroes_to_End.java) | Java |
+| 14 | Shopincandystore | [ShopInCandyStore.java](problems/ShopInCandyStore.java) | Java |
+| 15 | Steps By Knight | [Steps_by_Knight.java](problems/Steps_by_Knight.java) | Java |
+| 16 | String Subsequence | [String_subsequence.java](problems/String_subsequence.java) | Java |
 
-## Binary Tree
-
-| # | Problem | Solution | Topic |
-|---|---------|----------|-------|
-| 1 | Bottom View of Binary Tree | [Java](Binary%20tree/bottomview.java) | Tree |
-| 2 | BST Operations | [Java](Binary%20tree/BST_operations.java) | BST |
-| 3 | Top View of Binary Tree | [Java](Binary%20tree/topview.java) | Tree |
-| 4 | Tree Traversals | [Java](Binary%20tree/traversals.java) | Tree |
-
-## Problems
-
-| # | Problem | Solution | Topic |
-|---|---------|----------|-------|
-| 1 | Container With Most Water | [Java](problems/Container_With_Most_Water.java) | Two Pointers |
-| 2 | Knight Moves | [Java](problems/knitemoves.java) | Graph, BFS |
-| 3 | Knight's Tour (Warnsdorff's Algorithm) | [Java](problems/knites_tour_Warnsdorff.java) | Graph, Backtracking |
-| 4 | Shop in Candy Store | [Java](problems/ShopInCandyStore.java) | Greedy |
-| 5 | Steps by Knight | [Java](problems/Steps_by_Knight.java) | Graph, BFS |
-| 6 | String Subsequence | [Java](problems/String_subsequence.java) | String, DP |
-
-> **Total: 12 Problems**
+> Total: 16
