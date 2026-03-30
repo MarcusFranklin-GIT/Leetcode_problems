@@ -1,4 +1,3 @@
-package Leetcode.Easy;
 public class Single_Number_136 {
     public int singleNumber(int[] nums) {
         int c=0;
