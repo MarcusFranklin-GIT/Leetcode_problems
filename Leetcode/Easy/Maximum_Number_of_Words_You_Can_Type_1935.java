@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-import java.util.*;
+﻿import java.util.*;
 class Maximum_Number_of_Words_You_Can_Type_1935 {
     public int canBeTypedWords(String text, String b) {
         Set<Character> bl=new HashSet<>();

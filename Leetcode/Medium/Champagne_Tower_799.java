@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-public class Champagne_Tower_799 {
+﻿public class Champagne_Tower_799 {
     public double champagneTower(int poured, int query_row, int query_glass) {
         int ROW=query_row+2;
         double dp[][]=new double[ROW][ROW];

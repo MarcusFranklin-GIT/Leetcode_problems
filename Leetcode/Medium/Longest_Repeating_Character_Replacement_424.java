@@ -1,5 +1,4 @@
-package Leetcode.Medium;    
-
+﻿
 public class Longest_Repeating_Character_Replacement_424 {
     public int characterReplacement(String s, int k) {
         int left=0,right=0;

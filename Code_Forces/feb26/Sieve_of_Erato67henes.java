@@ -1,5 +1,4 @@
-package feb26;
-import java.util.*;
+﻿import java.util.*;
 
 public class Sieve_of_Erato67henes {
     public static void main(String[] args) {

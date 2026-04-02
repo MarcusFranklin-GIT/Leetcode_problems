@@ -1,5 +1,4 @@
-package filtration_test;
-
+﻿
 import java.util.*;
 class salesman_salary {
     public static void main(String[] args) {

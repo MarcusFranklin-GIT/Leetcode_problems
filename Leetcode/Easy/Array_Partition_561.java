@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-import java.util.Arrays;
+﻿import java.util.Arrays;
 
 public class Array_Partition_561 {
     public int arrayPairSum(int[] nums) {

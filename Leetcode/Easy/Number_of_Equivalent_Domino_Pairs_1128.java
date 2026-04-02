@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-import java.util.*;
+﻿import java.util.*;
 public class Number_of_Equivalent_Domino_Pairs_1128 {
     public int numEquivDominoPairs(int[][] domi) {
        int N=domi.length;

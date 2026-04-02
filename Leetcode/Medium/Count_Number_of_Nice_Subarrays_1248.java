@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-
+﻿
 class Count_Number_of_Nice_Subarrays_1248 {
     public int numberOfSubarrays(int[] nums, int k) {
         return oddcount(nums,k)-oddcount(nums,k-1);

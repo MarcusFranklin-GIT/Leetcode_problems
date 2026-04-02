@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-import java.util.*;
+﻿import java.util.*;
 
 // public class Intersection_of_Two_Arrays_349 {
 //     public static void main(String[] args) {

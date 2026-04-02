@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-public class Maximum69Number_1323 {
+﻿public class Maximum69Number_1323 {
     public int maximum69Number (int num) {
         int arr[]=new int[4];
         int N=num;

@@ -1,5 +1,4 @@
-package filtration_test;
-
+﻿
 import java.util.Scanner;
 
 public class Word_search {

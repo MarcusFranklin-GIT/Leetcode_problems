@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-public class Number_of_Islands_200 {
+﻿public class Number_of_Islands_200 {
     public int numIslands(char[][] grid) {
         int count=0,R=grid.length,C=grid[0].length;
         for(int row=0;row<R;row++){

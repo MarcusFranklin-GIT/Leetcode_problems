@@ -1,5 +1,4 @@
-package Leetcode.LinkedList.Binarytree;
-
+﻿
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

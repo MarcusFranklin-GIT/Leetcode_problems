@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-public class Max_Consecutive_Ones_1004{
+﻿public class Max_Consecutive_Ones_1004{
     public int longestOnes(int[] nums, int k) {
         int len=nums.length;
         int zeros=0;

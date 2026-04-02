@@ -1,5 +1,4 @@
-package DP;
-//optimal DP by finding the maximum 2 values in each column
+﻿//optimal DP by finding the maximum 2 values in each column
 import java.util.*;
 public class dont_take_next_col_val {
 

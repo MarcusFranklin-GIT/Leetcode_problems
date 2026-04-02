@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-public class Maximum_Subarray_53 {
+﻿public class Maximum_Subarray_53 {
     public int maxSubArray(int[] nums) {
         int curr=Integer.MIN_VALUE;
         int max=0;

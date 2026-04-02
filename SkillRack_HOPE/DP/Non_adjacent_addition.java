@@ -1,5 +1,4 @@
-package DP;
-
+﻿
 import java.util.*;
 public class Non_adjacent_addition {
     //house robber problem

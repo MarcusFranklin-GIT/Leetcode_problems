@@ -1,5 +1,4 @@
-package Leetcode.LinkedList;
-
+﻿
 public class Merge_Two_Sorted_Lists_21{
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode root=null;

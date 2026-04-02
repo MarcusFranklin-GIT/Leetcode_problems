@@ -1,4 +1,4 @@
-// class Solution {
+﻿// class Solution {
 //     public String largestGoodInteger(String num) {
 //         String []nums={"999","888","777","666","555","444","333","222","111","000"};
 //         for(String i:nums){
@@ -7,7 +7,6 @@
 //         return "";
 //     }
 // }
-package Leetcode.Easy;
 public class Largest_3_Same_Digit_Numberin_String_2264 {
     public String largestGoodInteger(String num) {
         String maxGood = "";

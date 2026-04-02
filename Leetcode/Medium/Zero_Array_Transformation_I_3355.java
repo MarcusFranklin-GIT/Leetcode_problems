@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-public class Zero_Array_Transformation_I_3355 {
+﻿public class Zero_Array_Transformation_I_3355 {
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int n = nums.length;
         int[] freq = new int[n + 1];

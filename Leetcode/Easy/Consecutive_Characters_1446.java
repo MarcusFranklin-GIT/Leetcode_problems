@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-
+﻿
 public class Consecutive_Characters_1446 {
     public int maxPower(String s) {
         int maxlen=1,count=1;;

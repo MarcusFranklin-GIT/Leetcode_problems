@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-public class Maximum_Difference_Between_Even_and_Odd_Frequency_3442 {
+﻿public class Maximum_Difference_Between_Even_and_Odd_Frequency_3442 {
     public int maxDifference(String s) {
         int[] freq = new int[26];
         for (char c : s.toCharArray()) {

@@ -1,5 +1,4 @@
-package Leetcode.Hard;
-import java.util.*;
+﻿import java.util.*;
 class Replace_Non_Coprime_Numbers_in_Array_2197 {
     public int gcd(int a, int b){
         return (b == 0)? a : gcd(b, a%b);

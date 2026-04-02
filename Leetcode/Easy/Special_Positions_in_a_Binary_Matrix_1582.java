@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-class Special_Positions_in_a_Binary_Matrix_1582 {
+﻿class Special_Positions_in_a_Binary_Matrix_1582 {
     public int numSpecial(int[][] mat) {
         int R=mat.length;
         int C=mat[0].length;

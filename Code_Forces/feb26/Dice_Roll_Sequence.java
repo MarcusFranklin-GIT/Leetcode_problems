@@ -1,5 +1,4 @@
-package feb26;
-import java.io.*;
+﻿import java.io.*;
 import java.util.*;
 
 public class Dice_Roll_Sequence {

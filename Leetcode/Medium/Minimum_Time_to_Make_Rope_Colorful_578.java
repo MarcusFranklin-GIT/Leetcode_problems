@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-public class Minimum_Time_to_Make_Rope_Colorful_578 {
+﻿public class Minimum_Time_to_Make_Rope_Colorful_578 {
     public static void main(String[] args) {
         Solution sol=new Solution();
         String colors="abaac";

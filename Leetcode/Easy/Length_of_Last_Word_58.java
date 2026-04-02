@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-
+﻿
 public class Length_of_Last_Word_58 {
     public int lengthOfLastWord(String s) {
         boolean flag=false;;

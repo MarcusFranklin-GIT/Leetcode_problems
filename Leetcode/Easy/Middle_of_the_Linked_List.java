@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-public class Middle_of_the_Linked_List {
+﻿public class Middle_of_the_Linked_List {
     public ListNode middleNode(ListNode head) {
         ListNode fast=head;
         ListNode slow=head;

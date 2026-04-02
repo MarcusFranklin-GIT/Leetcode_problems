@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-//mohan solution
+﻿//mohan solution
 class TreeNode {
       int val;
       TreeNode left;

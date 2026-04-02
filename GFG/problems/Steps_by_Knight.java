@@ -1,5 +1,4 @@
-package problems;
-
+﻿
 import java.util.*;
 
 public class Steps_by_Knight {

@@ -1,5 +1,4 @@
-package Leetcode.Medium; 
-public class Longest_Palindromic_Substring_5 {
+﻿public class Longest_Palindromic_Substring_5 {
     public String longestPalindrome(String s) {
         int len=s.length();
         int[][] arr= new int[len][len];

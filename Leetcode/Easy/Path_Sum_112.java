@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
@@ -13,7 +13,6 @@
  *     }
  * }
  */
-package Leetcode.Easy;
 public class Path_Sum_112 {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if(root==null) return false;

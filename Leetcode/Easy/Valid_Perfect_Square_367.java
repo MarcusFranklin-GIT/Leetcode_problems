@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-class Valid_Perfect_Square_367 {
+﻿class Valid_Perfect_Square_367 {
     public boolean isPerfectSquare(int num) {
         if(num<=1)return true;
         long left=2,right=num/2;

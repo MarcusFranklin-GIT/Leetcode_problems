@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-import java.util.*;
+﻿import java.util.*;
 public class assign_cookies_455 {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);

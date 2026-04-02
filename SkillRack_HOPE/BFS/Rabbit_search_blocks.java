@@ -1,5 +1,4 @@
-package BFS;
-//without visited;
+﻿//without visited;
 import java.util.*;
 public class Rabbit_search_blocks {
 

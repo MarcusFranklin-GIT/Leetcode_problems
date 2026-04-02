@@ -1,5 +1,4 @@
-package Leetcode.LinkedList;
-
+﻿
 public class Reverse_Linked_List_206 {
     public ListNode reverseList(ListNode head) {
         if(head==null)return null;

@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-import java.util.*;
+﻿import java.util.*;
 public class Valid_Parentheses_20 {
     public boolean isValid(String s) {
         Stack<Character> stk=new Stack<>();

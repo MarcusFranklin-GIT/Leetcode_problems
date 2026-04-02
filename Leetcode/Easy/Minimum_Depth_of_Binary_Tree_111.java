@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
@@ -13,7 +13,6 @@
  *     }
  * }
  */
-package Leetcode.Easy;
 class Minimum_Depth_of_Binary_Tree_111 {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;

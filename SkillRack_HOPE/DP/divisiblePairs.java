@@ -1,5 +1,4 @@
-package DP;
-
+﻿
 import java.util.Scanner;
 public class divisiblePairs {
     public static void main(String[] args) {

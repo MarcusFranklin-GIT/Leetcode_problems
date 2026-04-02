@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-
+﻿
 public class Max_Consecutive_Ones_485 {
     public int findMaxConsecutiveOnes(int[] nums) {
         int l=0,r=0;

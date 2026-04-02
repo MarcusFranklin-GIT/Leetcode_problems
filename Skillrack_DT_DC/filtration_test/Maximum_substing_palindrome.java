@@ -1,5 +1,4 @@
-package filtration_test;
-import java.util.*;
+﻿import java.util.*;
 public class Maximum_substing_palindrome {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);

@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-import java.util.Arrays;
+﻿import java.util.Arrays;
 public class Count_Primes_204 {
     public int countPrimes(int N) {
         if(N<2)return 0;

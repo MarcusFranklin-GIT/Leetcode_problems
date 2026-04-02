@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-import java.util.Stack;
+﻿import java.util.Stack;
 class Minimum_Remove_to_Make_Valid_Parentheses_1249 {
     public String minRemoveToMakeValid(String s) {
         Stack<Integer> stk=new Stack<>();

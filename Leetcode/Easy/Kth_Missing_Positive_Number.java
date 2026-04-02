@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-class Kth_Missing_Positive_Number {
+﻿class Kth_Missing_Positive_Number {
     public int findKthPositive(int[] arr, int k) {
         int len=arr.length;
         int left=0,right=len-1,mid=0;

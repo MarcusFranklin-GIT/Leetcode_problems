@@ -1,5 +1,4 @@
-package Leetcode.LinkedList.Binarytree;
-
+﻿
 import java.util.*;
 
 public class Binary_Tree_Right_Side_View_199 {

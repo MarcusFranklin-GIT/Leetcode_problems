@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-
+﻿
 public class Longer_Contiguous_Segments_of_Ones_than_Zeros_1869 {
     public boolean checkZeroOnes(String s) {
         int zero=0,one=0;

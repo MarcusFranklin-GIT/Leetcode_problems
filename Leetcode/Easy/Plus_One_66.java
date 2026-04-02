@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-
+﻿
 public class Plus_One_66 {
     public int[] plusOne(int[] digits) {
         int len=digits.length;

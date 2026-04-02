@@ -1,5 +1,4 @@
-package problems;
-import java.util.*;
+﻿import java.util.*;
 public class knites_tour_Warnsdorff {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);

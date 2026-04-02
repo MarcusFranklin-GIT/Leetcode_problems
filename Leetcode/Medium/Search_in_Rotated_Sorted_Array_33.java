@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-public class Search_in_Rotated_Sorted_Array_33 {
+﻿public class Search_in_Rotated_Sorted_Array_33 {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
 

@@ -1,5 +1,4 @@
-package Leetcode.LinkedList;
-
+﻿
 public class Linked_List_Cycle_141 {
     public boolean hasCycle(ListNode head) {
         ListNode fast=head;

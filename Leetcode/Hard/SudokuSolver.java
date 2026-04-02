@@ -1,5 +1,4 @@
-package Leetcode.Hard;
-
+﻿
 import java.util.*;
 class SudokuSolver{
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
-package filtration_test;
-import java.util.*;
+﻿import java.util.*;
 
 public class Minimum_Coin_Amount_Impossible {
     public static void main(String[]Args){

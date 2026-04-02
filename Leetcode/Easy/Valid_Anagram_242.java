@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-public class Valid_Anagram_242 {
+﻿public class Valid_Anagram_242 {
     public boolean isAnagram(String s, String t) {
         if(s.length()!=t.length())return false;
         int[] arr=new int[26];

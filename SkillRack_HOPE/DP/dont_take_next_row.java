@@ -1,5 +1,4 @@
-package DP;
-//bruit force DP
+﻿//bruit force DP
 import java.util.*;
 public class dont_take_next_row {
 

@@ -1,4 +1,4 @@
-
+﻿
   //Definition for a binary tree node.
 // class TreeNode {
 //       int val;
@@ -12,7 +12,6 @@
 //           this.right = right;
 //       }
 //   }
-package Leetcode.Easy;
 import java.util.*;
 public class Binary_Tree_Inorder_Traversal_94 {
     public List<Integer> inorderTraversal(TreeNode root) {

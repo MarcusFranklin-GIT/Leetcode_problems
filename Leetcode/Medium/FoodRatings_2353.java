@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-import java.util.*;
+﻿import java.util.*;
 
 public class FoodRatings_2353 {
     HashMap<String,Integer> map1=new HashMap<>();

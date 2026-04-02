@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-import java.util.*;
+﻿import java.util.*;
 public class Majority_Element_169 {
     public int majorityElement(int[] nums) {
         int ele=nums[0];

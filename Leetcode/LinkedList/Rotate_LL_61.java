@@ -1,5 +1,4 @@
-
-package Leetcode.LinkedList;
+﻿
 public class Rotate_LL_61 {
     public ListNode rotateRight(ListNode head, int k) {
         if(head==null || head.next==null)return head;

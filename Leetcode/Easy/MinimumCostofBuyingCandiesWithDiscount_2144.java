@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-import java.util.Arrays;
+﻿import java.util.Arrays;
 
 public class MinimumCostofBuyingCandiesWithDiscount_2144 {
 

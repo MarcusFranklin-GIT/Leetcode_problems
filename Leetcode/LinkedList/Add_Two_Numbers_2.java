@@ -1,5 +1,4 @@
-package Leetcode.LinkedList;
-
+﻿
 public class Add_Two_Numbers_2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0); 

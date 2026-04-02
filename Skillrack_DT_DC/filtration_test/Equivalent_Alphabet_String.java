@@ -1,5 +1,4 @@
-package filtration_test;
-
+﻿
 import java.util.*;
 
 public class Equivalent_Alphabet_String {
@@ -32,7 +31,7 @@ public class Equivalent_Alphabet_String {
                 }
                 i += 2;
             } else {
-                // No hash — lowercase letter
+                // No hash â€” lowercase letter
                 int num = str[i] - '0';
                 if (num >= 1 && num <= 9) {
                     System.out.print((char) ('a' + num - 1));

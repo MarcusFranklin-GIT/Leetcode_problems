@@ -1,5 +1,4 @@
-package Leetcode.LinkedList;
-
+﻿
 // Definition for singly-linked list.
 class Remove_Nth_Node_From_End_of_List_19 { 
     public ListNode removeNthFromEnd(ListNode head, int n) {

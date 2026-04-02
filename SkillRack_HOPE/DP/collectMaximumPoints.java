@@ -1,5 +1,4 @@
-package DP;
-import java.util.*;
+﻿import java.util.*;
 public class collectMaximumPoints {
 
     public static void main(String[] args) {

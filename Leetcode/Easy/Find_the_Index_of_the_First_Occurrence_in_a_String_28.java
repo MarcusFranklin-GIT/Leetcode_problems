@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-public class Find_the_Index_of_the_First_Occurrence_in_a_String_28 {
+﻿public class Find_the_Index_of_the_First_Occurrence_in_a_String_28 {
     public int strStr(String haystack, String needle) {
         for(int i=0;i<haystack.length();i++){
             if(i<=haystack.length()-needle.length()){ 

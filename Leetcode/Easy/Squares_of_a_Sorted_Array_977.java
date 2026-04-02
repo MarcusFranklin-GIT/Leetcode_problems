@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-
+﻿
 public class Squares_of_a_Sorted_Array_977 {
     public int[] sortedSquares(int[] nums) {
         int len=nums.length;

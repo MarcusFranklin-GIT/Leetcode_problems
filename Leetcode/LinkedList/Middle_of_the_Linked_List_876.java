@@ -1,5 +1,4 @@
-package Leetcode.LinkedList;
-
+﻿
 public class Middle_of_the_Linked_List_876 {
     public ListNode middleNode(ListNode head) {
         ListNode fast=head;

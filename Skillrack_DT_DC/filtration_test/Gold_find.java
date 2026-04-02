@@ -1,5 +1,4 @@
-package filtration_test;
-
+﻿
 import java.util.*;
 public class Gold_find {
 

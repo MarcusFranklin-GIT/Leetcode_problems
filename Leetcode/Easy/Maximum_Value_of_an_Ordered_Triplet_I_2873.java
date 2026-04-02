@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-public class Maximum_Value_of_an_Ordered_Triplet_I_2873 {
+﻿public class Maximum_Value_of_an_Ordered_Triplet_I_2873 {
     public long maximumTripletValue(int[] nums) {
         int N=nums.length;
         long val=0;

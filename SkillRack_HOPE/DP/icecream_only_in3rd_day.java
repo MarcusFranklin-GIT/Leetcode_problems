@@ -1,5 +1,4 @@
-package DP;
-
+﻿
 import java.util.*;
 public class icecream_only_in3rd_day {
 

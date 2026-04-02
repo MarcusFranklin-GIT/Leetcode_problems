@@ -1,5 +1,4 @@
-package Leetcode.Easy;
-public class Maximum_Difference_Between_Increasing_Elements_2016 {
+﻿public class Maximum_Difference_Between_Increasing_Elements_2016 {
     public int maximumDifference(int[] nums) {
         int i = 0;
         int max = 0;

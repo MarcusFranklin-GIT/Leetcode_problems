@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-import java.util.*;
+﻿import java.util.*;
 
 public class Sort_Matrix_by_Diagonals_3446 {
     public static void main(String[] args) {

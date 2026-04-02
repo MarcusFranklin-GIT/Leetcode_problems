@@ -1,5 +1,4 @@
-package Leetcode.Medium;
-import java.util.*;
+﻿import java.util.*;
 
 public class Permutations_46 {
     public List<List<Integer>> permute(int[] nums) {

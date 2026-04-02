@@ -1,5 +1,4 @@
-package Leetcode.Hard;
-import java.util.*;
+﻿import java.util.*;
 
 public class Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_Matrix_1284 {
     public int minFlips(int[][] mat) {

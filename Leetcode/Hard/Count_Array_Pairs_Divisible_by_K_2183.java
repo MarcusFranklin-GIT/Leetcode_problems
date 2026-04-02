@@ -1,5 +1,4 @@
-package Leetcode.Hard;
-
+﻿
 import java.util.*;
 
 public class Count_Array_Pairs_Divisible_by_K_2183 {
