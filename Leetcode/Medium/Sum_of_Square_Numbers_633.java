@@ -1,4 +1,4 @@
-package Leetcode.Medium;
+// package Leetcode.Medium;
 class Sum_of_Square_Numbers_633 {
     public boolean judgeSquareSum(int c) {
         long left=0,right=(int)Math.sqrt(c);
