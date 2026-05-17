@@ -13,6 +13,5 @@ public class printgreater {
 		        System.out.print(num+" ");
 		    }
 		}
-
 	}
 }
