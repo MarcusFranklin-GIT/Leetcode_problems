@@ -1,4 +1,5 @@
-﻿class Next_Permutation_31 {
+﻿package Arrays;
+class Next_Permutation_31 {
     public void nextPermutation(int[] nums) {
        int b=-1;
         for(int i=nums.length-2;i>=0;i--){
