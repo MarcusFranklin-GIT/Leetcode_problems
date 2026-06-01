@@ -1,4 +1,4 @@
-﻿package Arrays;
+﻿// package Leetcode.Medium.Arrays;
 class Next_Permutation_31 {
     public void nextPermutation(int[] nums) {
        int b=-1;
