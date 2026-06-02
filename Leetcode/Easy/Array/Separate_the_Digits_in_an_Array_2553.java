@@ -1,4 +1,3 @@
-package Array;
 public class Separate_the_Digits_in_an_Array_2553 {
     public int[] separateDigits(int[] nums) {
         int len=0;
