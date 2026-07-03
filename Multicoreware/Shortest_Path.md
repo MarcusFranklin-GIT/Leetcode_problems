@@ -55,3 +55,19 @@ Below is the structural layout of the sample graph:
 5 2 4
 5 4 2
 5 3
+
+### Example 2
+#### Simple Unreachable Case
+
+#### Input
+```text
+4 2
+1 2 5
+3 4 7
+1 4
+```
+
+#### Output
+```text
+-1
+```
