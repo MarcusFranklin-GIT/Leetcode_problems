@@ -40,7 +40,7 @@ Given a source vertex `s` and a destination vertex `t`, find the length of the s
 #### Graph Reference Visual
 Below is the structural layout of the sample graph:
 
-![Sample Graph Layout](https://github.com/MarcusFranklin-GIT/Leetcode_problems/blob/main/Multicoreware/Graph_SP.png) 
+<img src="https://github.com/MarcusFranklin-GIT/Leetcode_problems/blob/main/Multicoreware/Graph_SP.png" alt="Sample Graph Layout" width="50%" />
 *(Note: Replace the URL above with the actual path once you upload the image to your repository)*
 
 #### Input
