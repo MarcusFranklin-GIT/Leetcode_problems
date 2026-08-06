@@ -1,4 +1,3 @@
-package ZOHO_Practice;
 import java.util.*;
 public class Digits_count {
 
