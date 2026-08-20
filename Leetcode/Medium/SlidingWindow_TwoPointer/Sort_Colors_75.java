@@ -1,4 +1,5 @@
-﻿public class Sort_Colors_75 {
+﻿package Leetcode.Medium.SlidingWindow_TwoPointer;
+public class Sort_Colors_75 {
     public void sortColors(int[] nums) {
         int left=0,mid=0;
         int right=nums.length-1;

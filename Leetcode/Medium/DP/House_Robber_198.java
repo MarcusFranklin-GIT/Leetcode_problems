@@ -1,4 +1,5 @@
-﻿public class House_Robber_198{
+﻿package Leetcode.Medium.DP;
+public class House_Robber_198{
     public int rob(int[] nums) {
         int prev1 = 0;  // dp[i - 1]
         int prev2 = 0;  // dp[i - 2]
