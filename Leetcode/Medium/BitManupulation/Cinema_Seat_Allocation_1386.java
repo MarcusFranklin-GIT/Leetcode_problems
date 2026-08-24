@@ -1,3 +1,4 @@
+import java.util.HashMap;
 class Cinema_Seat_Allocation_1386 {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
 
