@@ -6,7 +6,6 @@ class Search_a_2D_Matrix_74 {
 
         while(low<=high){
             int mid= low +(high-low)/2;
-
             int row =mid/C;
             int col = mid%C;
 
